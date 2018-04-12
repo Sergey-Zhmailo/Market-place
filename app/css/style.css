@@ -70,4 +70,71 @@ blockquote	{
     margin: 0px;
 }
 /*========== RESET END ==========*/
+.breadcrumb {
+    background-color: inherit;
+    color: #b0bec5;
+}
+.breadcrumb-item.active {
+    color: #263238;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    content: '-';
+    color: #8bc34a;
+}
+.btn-custom {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding:  8px 0;
+    border-radius: 6px;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 72px;
+}
+.btn-custom.btn-green {
+    color: #ffffff;
+    background-color: #8bc34a;
+}
+.btn-custom.btn-red {
+    color: #ffffff;
+    background-color: #e74c3c;
+}
+.btn-custom.btn-blue {
+    color: #ffffff;
+    background-color: #42a5f5;
+}
+.button-wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+.tag-list {
+    font-size: 14px;
+    font-weight: 500;
+}
+.tag-list-item {
+    background-color: #fff;
+    padding: 13px 23px;
+    color: #263238;
+}
+.tag-list  .tag-list-item + .tag-list-item  {
+     margin-left: 5px;
+ }
+.tag-list .tag-list-item.active{
+    background-color: #e74c3c;
+    color: #ffffff;
+    padding: 13px 27px;
+}
+.tag-list .tag-list-item:hover {
+    background-color: #e74c3c;
+    color: #ffffff;
+}
+.tag-list-item a:hover {
+    color: #ffffff;
+}
+.bg-grey {
+    background-color: #f4f6f5;
+}
+
+.tag-section {
+    height: 500px;
+}
 

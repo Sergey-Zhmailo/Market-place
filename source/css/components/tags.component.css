@@ -1,0 +1,31 @@
+.tag-list {
+    font-size: 14px;
+    font-weight: 500;
+}
+.tag-list-item {
+    background-color: #fff;
+    padding: 13px 23px;
+    color: #263238;
+}
+.tag-list  .tag-list-item + .tag-list-item  {
+     margin-left: 5px;
+ }
+.tag-list .tag-list-item.active{
+    background-color: #e74c3c;
+    color: #ffffff;
+    padding: 13px 27px;
+}
+.tag-list .tag-list-item:hover {
+    background-color: #e74c3c;
+    color: #ffffff;
+}
+.tag-list-item a:hover {
+    color: #ffffff;
+}
+.bg-grey {
+    background-color: #f4f6f5;
+}
+
+.tag-section {
+    height: 500px;
+}

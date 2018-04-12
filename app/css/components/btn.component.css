@@ -1,0 +1,25 @@
+.btn-custom {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding:  8px 0;
+    border-radius: 6px;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 72px;
+}
+.btn-custom.btn-green {
+    color: #ffffff;
+    background-color: #8bc34a;
+}
+.btn-custom.btn-red {
+    color: #ffffff;
+    background-color: #e74c3c;
+}
+.btn-custom.btn-blue {
+    color: #ffffff;
+    background-color: #42a5f5;
+}
+.button-wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
