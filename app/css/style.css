@@ -72,8 +72,8 @@ blockquote	{
 /*========== RESET END ==========*/
 
 .search-section{
-    background: url(../../app/img/inner-bg2.jpg) no-repeat center top/cover;
-    background-color: rgba(181, 181 , 181, 0.5);
+    background: url(../../app/img/inner-bg.jpg) no-repeat center top/cover;
+    opacity:0.8;
 }
 .search-section.small{
     padding: 65px 0;
@@ -101,7 +101,7 @@ blockquote	{
 .search-section.bg form .form-control,
 .search-section.small form .form-control
 {
-    max-width: 670px;
+    min-width: 670px;
 }
 .form-control {
     width: 100%;
@@ -114,6 +114,9 @@ blockquote	{
     padding-left: 25px;
     padding-right: 25px;
 }
+.form-control:focus{
+    border: none;
+}
 .text-center{
     width: 750px;
 }
@@ -124,4 +127,22 @@ blockquote	{
     color: #f8f8f8;
     display: block;
     margin-bottom: 30px;
+}
+.col{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-align-items: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
