@@ -320,6 +320,7 @@ button:focus {
     height: 100vh;
 }
 .search-section.bg h1{
+    font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 48px;
     line-height: 30px;
@@ -327,6 +328,7 @@ button:focus {
     margin-bottom: 30px;
 }
 .search-section.bg span{
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
@@ -357,6 +359,7 @@ button:focus {
     width: 750px;
 }
 .search-section.small span{
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
