@@ -14,10 +14,13 @@
     background-color: #e74c3c;
     color: #ffffff;
     padding: 13px 27px;
+    box-shadow: 0 2px 5px rgba(202, 215, 228, .75);
 }
 .tag-list .tag-list-item:hover {
     background-color: #e74c3c;
     color: #ffffff;
+    box-shadow: 0 2px 5px rgba(202, 215, 228, .75);
+    transition: all .3s ease-out;
 }
 .tag-list-item a:hover {
     color: #ffffff;

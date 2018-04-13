@@ -1,11 +1,30 @@
+button:focus {
+    outline:none;
+}
 .btn-custom {
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    padding:  8px 0;
-    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px;
+}
+.btn-custom:hover {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
+}
+.btn-custom.btn-big {
+    padding: 25px 42px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 1.5;
-    width: 72px;
+}
+.btn-custom.btn-header {
+     font-size: 12px;
+     padding:  8px 20px;
+     border-radius: 6px;
+     font-weight: 400;
+     line-height: 1.5;
+ }
+.btn-custom.btn-white {
+    color: #263238;
+    background-color: #fff;
 }
 .btn-custom.btn-green {
     color: #ffffff;
@@ -19,7 +38,33 @@
     color: #ffffff;
     background-color: #42a5f5;
 }
+.btn-custom.btn-dark-blue {
+    color: #ffffff;
+    background-color: #546e7a;
+}
 .button-wrapper {
     text-align: center;
     margin-top: 20px;
 }
+
+.aside-button-wrapper {
+    width: 256px;
+    float: left;
+}
+.btn-custom.btn-aside {
+   width: 100%;
+}
+.form-wrapper {
+    margin-top: 10px;
+}
+
+.btn-custom.btn-submit {
+    padding: 18px 35px;
+}
+.btn-custom.btn-dropdown {
+    font-size: 14px;
+    padding:  8px 20px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
