@@ -1,0 +1,30 @@
+/*========== HEADER START ===========*/
+#header .top-header .logo {
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+#header .top-header .top-header-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #546e7a;
+}
+#header .top-header .top-header-text .text-color-red {
+    color: #e74c3c;
+}
+#header .bottom-header {
+    background-color: #263238;
+}
+#header .bottom-header .header-nav li {
+    margin: 25px 40px 25px 0px;
+}
+#header .bottom-header .header-nav a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+}
+#header .bottom-header .header-nav a:hover {
+    color: #e74c3c;
+}
+/*========== HEADER END ===========*/
