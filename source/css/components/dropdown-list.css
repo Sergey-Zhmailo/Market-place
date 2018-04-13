@@ -124,6 +124,15 @@
     color: #ef6c00;
 }
 
+.btn-dropdown{
+    padding: 13px;
+    font-size: 14px;
+    font-family: "Roboto";
+    color: #F4F6F5;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
 /* Deffault style dropdown end */
 /*-------------------------------------------------------*/
 /* Dropdown Notification start */
@@ -211,31 +220,29 @@
 }
 
 .dropdown-total .button-chart {
-    padding: 13px;
     background-color: #95c85a;
-    font-size: 14px;
-    font-family: "Roboto";
-    color: rgb(244, 246, 245);
-    font-weight: 400;
-    margin-top: 20px;
 }
 
 .dropdown-total .button-chart:hover{
     background-color: #7db92d;
 }
 
+.dropdown-total .button-chart:active {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #608C23;
+}
+
 .dropdown-total .button-checkout {
-    padding: 13px;
     background-color: #e85647;
-    font-size: 14px;
-    font-family: "Roboto";
-    color: rgb(244, 246, 245);
-    font-weight: 400;
-    margin-top: 20px;
 }
 .dropdown-total .button-checkout:hover{
     background-color: #f2422d;
 }
+.dropdown-total .button-checkout:active {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #B31512;
+}
+
 
 /* Dropdown Basket End */
 /*-------------------------------------------------------*/
