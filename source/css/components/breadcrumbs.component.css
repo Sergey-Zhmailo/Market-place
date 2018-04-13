@@ -1,0 +1,12 @@
+.breadcrumb {
+    background-color: inherit;
+    color: #b0bec5;
+    padding: 45px 0;
+}
+.breadcrumb-item.active {
+    color: #263238;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    content: '-';
+    color: #8bc34a;
+}

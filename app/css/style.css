@@ -76,6 +76,127 @@ blockquote	{
     margin: 0px;
 }
 /*========== RESET END ==========*/
+.breadcrumb {
+    background-color: inherit;
+    color: #b0bec5;
+    padding: 45px 0;
+}
+.breadcrumb-item.active {
+    color: #263238;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    content: '-';
+    color: #8bc34a;
+}
+button:focus {
+    outline:none;
+}
+.btn-custom {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px;
+}
+.btn-custom:hover {
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
+}
+.btn-custom.btn-big {
+    padding: 25px 42px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.btn-custom.btn-header {
+     font-size: 12px;
+     padding:  8px 20px;
+     border-radius: 6px;
+     font-weight: 400;
+     line-height: 1.5;
+ }
+.btn-custom.btn-white {
+    color: #263238;
+    background-color: #fff;
+}
+.btn-custom.btn-green {
+    color: #ffffff;
+    background-color: #8bc34a;
+}
+.btn-custom.btn-red {
+    color: #ffffff;
+    background-color: #e74c3c;
+}
+.btn-custom.btn-blue {
+    color: #ffffff;
+    background-color: #42a5f5;
+}
+.btn-custom.btn-dark-blue {
+    color: #ffffff;
+    background-color: #546e7a;
+}
+.button-wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.aside-button-wrapper {
+    width: 256px;
+    float: left;
+}
+.btn-custom.btn-aside {
+   width: 100%;
+}
+.form-wrapper {
+    margin-top: 10px;
+}
+
+.btn-custom.btn-submit {
+    padding: 18px 35px;
+}
+.btn-custom.btn-dropdown {
+    font-size: 14px;
+    padding:  8px 20px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+
+.tag-list {
+    font-size: 14px;
+    font-weight: 500;
+}
+.tag-list-item {
+    background-color: #fff;
+    padding: 13px 23px;
+    color: #263238;
+}
+.tag-list  .tag-list-item + .tag-list-item  {
+     margin-left: 5px;
+ }
+.tag-list .tag-list-item.active{
+    background-color: #e74c3c;
+    color: #ffffff;
+    padding: 13px 27px;
+    -webkit-box-shadow: 0 2px 5px rgba(202, 215, 228, .75);
+    box-shadow: 0 2px 5px rgba(202, 215, 228, .75);
+}
+.tag-list .tag-list-item:hover {
+    background-color: #e74c3c;
+    color: #ffffff;
+    -webkit-box-shadow: 0 2px 5px rgba(202, 215, 228, .75);
+    box-shadow: 0 2px 5px rgba(202, 215, 228, .75);
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.tag-list-item a:hover {
+    color: #ffffff;
+}
+.bg-grey {
+    background-color: #f4f6f5;
+}
+
+.tag-section {
+    height: 500px;
+}
 
 /*========== FOOTER START ==========*/
 #footer .footer-top {
