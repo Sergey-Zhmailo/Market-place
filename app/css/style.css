@@ -630,6 +630,10 @@ button:focus {
     display: block;
     margin-bottom: 55px;
 }
+.search-section form{
+    -webkit-box-shadow: 0 0 15px #596c45;
+    box-shadow: 0 0 15px #596c45;
+}
 .search-section.bg form .form-control,
 .search-section.small form .form-control
 {
