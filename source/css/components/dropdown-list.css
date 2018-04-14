@@ -29,7 +29,6 @@
 }
 
 .header-dropdown-list{
-    margin-top: 100px;
     flex-direction: row;
 }
 .header-dropdown-list li + li{

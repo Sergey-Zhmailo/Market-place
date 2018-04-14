@@ -12,8 +12,12 @@
 #header .top-header .top-header-text .text-color-red {
     color: #e74c3c;
 }
-#header .top-header button {
+#header .top-header button.btn-header {
     margin-left: 7px;
+}
+#header .top-header .header-dropdown-list {
+    margin-left: 25px;
+    margin-right: 25px;
 }
 #header .bottom-header {
     background-color: #263238;
