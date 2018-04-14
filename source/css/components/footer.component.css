@@ -83,6 +83,8 @@
     border: 1px solid #000101;
     border-radius: 0;
     background-color: #2f3c43;
+    height: auto;
+    letter-spacing: 0em;
 }
 #footer .footer-top .footer-newsletter-form .form-control.footer-newsletter:focus {
     box-shadow: none;
@@ -94,6 +96,8 @@
     background-color: #8bc34a;
     color: #ffffff;
     font-size: 20px;
+    line-height: 1;
+    padding: 13px;
 }
 #footer .footer-top .footer-newsletter-form .btn.footer-newsletter-button:hover {
     background-color: #e74c3c;

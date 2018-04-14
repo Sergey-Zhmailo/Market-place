@@ -12,6 +12,9 @@
 #header .top-header .top-header-text .text-color-red {
     color: #e74c3c;
 }
+#header .top-header button {
+    margin-left: 7px;
+}
 #header .bottom-header {
     background-color: #263238;
 }
