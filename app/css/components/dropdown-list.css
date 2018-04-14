@@ -54,7 +54,7 @@
     border-radius: 18px;
 }
 .dropdown-menu{
-    top: 66px !important;
+    top: 62px !important;
     left: 36px !important;
     border-bottom: 1px solid #e0e0e0;
     border-radius: 0;
@@ -63,8 +63,8 @@
     border-color: #ccc;
     border-style: solid;
     background-color: #fff;
-    -webkit-box-shadow: 0px 16px 20px 0px rgba(216, 216, 216, 0.75);
-    box-shadow: 0px 16px 20px 0px rgba(216, 216, 216, 0.75);
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(216, 216, 216, 0.75);
+    box-shadow: 2px 2px 10px 0px rgba(216, 216, 216, 0.75);
 }
 .dropdown-menu .dropdown-item {
     padding: 20px;
@@ -199,28 +199,10 @@
     font-family: "Roboto";
     color: #000;
 }
-.dropdown-total .button-chart {
-    background-color: #95c85a;
+.dropdown-menu .dropdown-total .dropdown-total-item{
+    padding: 0 15px;
 }
-.dropdown-total .button-chart:hover{
-    background-color: #7db92d;
-}
-.dropdown-total .button-chart:active {
-    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    background-color: #608C23;
-}
-.dropdown-total .button-checkout {
-    background-color: #e85647;
-}
-.dropdown-total .button-checkout:hover{
-    background-color: #f2422d;
-}
-.dropdown-total .button-checkout:active {
-    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    background-color: #B31512;
-}
+
 /* Dropdown Basket End */
 
 /* Dropdown Account Start */
