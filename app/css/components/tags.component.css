@@ -1,3 +1,5 @@
+/*=== tags start ===*/
+
 .tag-list {
     font-size: 14px;
     font-weight: 500;
@@ -28,6 +30,9 @@
 .tag-list-item a:hover {
     color: #ffffff;
 }
+
+/*=== tags end ===*/
+
 .bg-grey {
     background-color: #f4f6f5;
 }
