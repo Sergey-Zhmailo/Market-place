@@ -1,0 +1,45 @@
+/*========== HOME STYLES START ==========*/
+/*ВРЕМЕННЫЙ!!!!!!*/
+.search-section.bg.my-home {
+    min-height: 532px;
+    padding: 160px 0 175px 0;
+}
+/*/ВРЕМЕННЫЙ!!!!!!*/
+.newest-release-prodcuts .bottom-tags li {
+    margin-right: 6px;
+    margin-left: 6px;
+}
+/*========== HOME STYLES END ==========*/
+/*========== WHY YOU CHOOSE FOXTAR MARKET START ==========*/
+.why-you-choose-foxtar-market .advantage-item {
+    text-align: center;
+}
+.why-you-choose-foxtar-market .advantage-item:hover .advantage-item-img img {
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+}
+.why-you-choose-foxtar-market .advantage-item:hover .advantage-item-title {
+    color: #8bc34a;
+}
+.why-you-choose-foxtar-market .advantage-item-img {
+    padding: 33px;
+}
+.why-you-choose-foxtar-market .advantage-item-img img {
+    -webkit-filter: brightness(85%);
+    filter: brightness(85%);
+}
+.why-you-choose-foxtar-market .advantage-item-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.why-you-choose-foxtar-market .advantage-item-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #b0bec5;
+}
+/*========== WHY YOU CHOOSE FOXTAR MARKET END ==========*/
