@@ -1,4 +1,7 @@
 /*========== HEADER START ===========*/
+#header .top-header {
+    background-color: #ffffff;
+}
 #header .top-header .logo {
     margin-top: 26px;
     margin-bottom: 26px;

@@ -32,7 +32,7 @@ body {
     line-height: 1;
     color: #707070;
     margin: 0;
-    background-color: #fff;
+    background-color: #f4f6f5;
 }
 h1, h2, h3, h4, h5, h6 {
     margin: 0px;
@@ -582,6 +582,9 @@ button:focus {
 }
 /*========== GUIDE STYLES END ==========*/
 /*========== HEADER START ===========*/
+#header .top-header {
+    background-color: #ffffff;
+}
 #header .top-header .logo {
     margin-top: 26px;
     margin-bottom: 26px;
@@ -614,6 +617,39 @@ button:focus {
     color: #e74c3c;
 }
 /*========== HEADER END ===========*/
+/*=== pagination start ===*/
+
+nav .pagination .page-item.active {
+    background-color: #e74c3c;
+    color: #ffffff;
+}
+nav .pagination .page-item a {
+    color: #37474f;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    background-color: #fff;
+    font-size: 16px;
+    -webkit-box-shadow: 1px 0 2px rgba(205, 214, 222, .75);
+    box-shadow: 1px 0 2px rgba(205, 214, 222, .75);
+}
+
+nav .pagination .page-item a:hover {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+
+nav .pagination li + li {
+    margin-left: 9px;
+}
+
+nav .pagination .page-item.active .page-link {
+    background-color: transparent;
+    border: none;
+}
+
+/*=== pagination end ===*/
+
 .search-section{
     background: url(../../app/img/inner-bg.jpg) no-repeat center top/cover;
     opacity:0.8;
