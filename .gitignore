@@ -1,10 +1,5 @@
 node_modules
 .idea
 package-lock.json
-<<<<<<< HEAD
-app/css/style.css
-=======
-buttons.html
-btn.component.css
-css/
->>>>>>> Max
+style.css
+.gitignore
