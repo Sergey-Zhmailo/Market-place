@@ -76,32 +76,6 @@ blockquote	{
     margin: 0px;
 }
 /*========== RESET END ==========*/
-/*========== ASIDE START ==========*/
-
-.aside-container .aside-content{
-    border: 1px solid #dedede;
-    background-color: #fff;
-    padding: 25px;
-}
-.aside-container .aside-content{
-    border: 1px solid #dedede;
-}
-.aside-container .aside-content hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-top: 1px solid #dedede;
-}
-.aside-container .aside-content .aside-title{
-    font-size: 20px;
-    font-family: "Roboto";
-    font-weight: 700;
-    color: #263238;
-    margin-bottom: 23px;
-}
-.aside-container .aside-content + .aside-content{
-    margin-top: 30px;
-}
-/*========== ASIDE END ==========*/
 /*=== breadcrumbs start ===*/
 
 .breadcrumb {
@@ -626,39 +600,6 @@ button:focus {
     color: #e74c3c;
 }
 /*========== HEADER END ===========*/
-/*=== pagination start ===*/
-
-nav .pagination .page-item.active {
-    background-color: #e74c3c;
-    color: #ffffff;
-}
-nav .pagination .page-item a {
-    color: #37474f;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    background-color: #fff;
-    font-size: 16px;
-    -webkit-box-shadow: 1px 0 2px rgba(205, 214, 222, .75);
-    box-shadow: 1px 0 2px rgba(205, 214, 222, .75);
-}
-
-nav .pagination .page-item a:hover {
-    background-color: #e74c3c;
-    color: #ffffff;
-}
-
-
-nav .pagination li + li {
-    margin-left: 9px;
-}
-
-nav .pagination .page-item.active .page-link {
-    background-color: transparent;
-    border: none;
-}
-
-/*=== pagination end ===*/
-
 .search-section{
     background: url(../../app/img/inner-bg.jpg) no-repeat center top/cover;
     opacity:0.8;
