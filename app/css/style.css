@@ -564,7 +564,7 @@ button:focus {
 
 
 /*========== GUIDE STYLES START ==========*/
-h1 {
+.guide-h1 {
     text-align: center;
     text-transform: uppercase;
     background-color: #e74c3c;
@@ -736,5 +736,5 @@ h1 {
 }
 
 .tag-section {
-    height: 500px;
+    height: 100px;
 }
