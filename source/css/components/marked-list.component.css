@@ -1,0 +1,18 @@
+/*========== MARKED LIST START ==========*/
+.marked-list li::before {
+    font-family: FontAwesome;
+    content: "\f054";
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    color: #8bc34a;
+    margin-right: 14px;
+}
+.marked-list {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #707070;
+}
+/*========== MARKED LIST END ==========*/
