@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project "MARKET-PLACE-Breadcrumbs" - homework front-end online 17.02.18</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--Наши стили-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!--========== HEADER START ==========-->
+    <header id="header">
+        <!--TOP-HEADER START-->
+        <div class="top-header">
+            <div class="container d-flex align-items-center">
+                <!--LOGO START-->
+                <div class="logo mr-auto">
+                    <a href="#">
+                        <img src="img/logo.png" alt="Logo FOXTAR">
+                    </a>
+                </div>
+                <!-- /.logo -->
+                <!--LOGO END-->
+                <!--TOP-HEADER TEXT START-->
+                <div class="top-header-text">
+                    <span class="text-color-red">Need help?</span>
+                    <span>Talk to an expert: +61 3 8376 6284</span>
+                </div>
+                <!-- /.top-header-text -->
+                <!--TOP-HEADER TEXT END-->
+                <!--TOP-HEADER INFO DROPDOWNS START-->
+                <ul class="header-dropdown-list">
+                    <li class="dropdown show dropdown-basket dropleft">
+                        <a class="dropdown-toggle dropdown-open-menu" id="dropdownBasket" data-toggle="dropdown" aria-haspopup="true"
+                           aria-expanded="false">
+                            <i class="fa fa-shopping-basket drop-icon"> </i>
+                            <span class="count">15</span>
+                        </a>
+                        <div class="dropdown-menu"
+                             aria-labelledby="dropdownBasket">
+                            <div  class="dropdown-item d-flex">
+                                <a href="#"><img src="img/dropdown-bascket.png" alt=""/> </a>
+                                <div class="drop-content d-flex">
+                                    <h6>Grand Ballet</h6>
+                                    <span class="drop-content-title">WordPress</span>
+                                    <span class="drop-content-price">59$</span>
+                                </div>
+                                <!-- / .drop-content-->
+                            </div>
+                            <!-- / .dropdown-item  -->
+                            <div  class="dropdown-item d-flex aling-item-center">
+                                <a href="#"><img src="img/dropdown-bascket.png" alt=""/> </a>
+                                <div class="drop-content d-flex">
+                                    <h6>Apple Device</h6>
+                                    <span class="drop-content-title">WordPress</span>
+                                    <span class="drop-content-price">69$</span>
+                                </div>
+                                <!-- / .drop-content-->
+                            </div>
+                            <!-- / .dropdown-item  -->
+                            <div  class="dropdown-total">
+                                <div class=" d-flex justify-content-between">
+                                    <span>Total</span>
+                                    <span class="drop-content-price">$128</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <button class="btn-custom btn-dropdown btn-green">Go to Cart</button>
+                                    <button class="btn-custom btn-dropdown btn-red">Go to Checkout</button>
+                                </div>
+                            </div>
+                            <!-- / .dropdown-total -->
+                        </div>
+                        <!-- / .dropdown-notification -->
+                    </li>
+                    <!-- /.dropdown-basket -->
+                </ul>
+                <!-- /.header-dropdown-list -->
+                <!--TOP-HEADER INFO DROPDOWNS END-->
+                <!--TOP-HEADER USER ACCOUNT START-->
+                <!--TOP-HEADER USER ACCOUNT END-->
+                <!--TOP-HEADER LOGIN|REGISTER|LOGOUT BUTTONS START-->
+                <button class="btn-custom btn-header btn-green">Login</button>
+                <button class="btn-custom btn-header btn-red">Register</button>
+                <!--TOP-HEADER LOGIN|REGISTER|LOGOUT BUTTONS START-->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.top-header -->
+        <!--TOP-HEADER END-->
+        <!--BOTTOM-HEADER START-->
+        <div class="bottom-header">
+            <div class="container">
+                <ul class="header-nav d-flex align-items-center justify-content-start">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">WordPress</a></li>
+                    <li><a href="#">Joomla</a></li>
+                    <li><a href="#">PSD</a></li>
+                    <li><a href="#">Plugins</a></li>
+                    <li><a href="#">Components</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+                <!-- /.header-nav -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.bottom-header -->
+        <!--BOTTOM-HEADER END-->
+    </header>
+    <!--========== HEADER END ==========-->
+
+    <!--========== MAIN START ==========-->
+    <div class="main">
+        <!--========== SEARCH-SECTION START ==========-->
+        <section id="search-section small" class="search-section small">
+            <div class="col">
+                <span>Premium WordPress Themes, Web Templates and Many More ...</span>
+            </div>
+            <!-- / col-->
+            <div class="col">
+                <form><input type="text" name="text" class="form-control" placeholder="Search Your Keywords . . ."></form>
+            </div>
+            <!-- / col-->
+        </section>
+        <!--========== SEARCH-SECTION END ==========-->
+
+        <!--========== BREADCRUMBS START ==========-->
+
+        <section class  breadcrumb-section>
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Product Page</li>
+                    </ul>
+                    <!-- / breadcrumb-->
+                </nav>
+                <!-- / nav-->
+            </div>
+            <!--/ container-->
+        </section>
+
+        <!--========== BREADCRUMBS END ==========-->
+
+        <!--========== PAGE CONTENT START ==========-->
+        <section class="page-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+
+                    </div>
+                    <!--/ col-->
+                    <div class="col-9">
+                        <div class="row">
+
+                            <div class="col-12">
+                                <nav aria-label="..." class="bg-grey">
+                                    <ul class="pagination pagination-lg">
+                                        <li class="page-item active">
+                                            <a class="page-link" href="#" tabindex="-1">1</a>
+                                        </li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a>
+                                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / col-->
+                </div>
+                <!-- / row-->
+            </div>
+            <!-- / container-->
+        </section>
+
+        <!--========== PAGE CONTENT END ==========-->
+    </div>
+    <!--========== MAIN END ==========-->
+
+    <!--========== FOOTER START ==========-->
+    <div id="footer">
+        <!--FOOTER-TOP START-->
+        <div class="footer-top">
+            <div class="container d-flex">
+                <div class="row">
+                    <!--About Company-->
+                    <div class="footer-column col-3">
+                        <div class="footer-column-title">
+                            <span>About Company</span>
+                        </div>
+                        <!-- /.footer-column-title -->
+                        <div class="footer-column-devider"></div>
+                        <!-- /.footer-column-devider -->
+                        <div class="footer-column-text">
+                            <span>Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet urna iat.Praesent vel rutrum purus.</span>
+                        </div>
+                        <!-- /.footer-column-text -->
+                        <div class="footer-column-contacts">
+                            <div class="company-adress d-flex">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <span>
+                                    PO Box 16122 Collins Street West Victoria 8007 Australia
+                                </span>
+                            </div>
+                            <!-- /.company-adress -->
+                            <div class="company-tel d-flex">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <span>+61 3 8376 6284</span>
+                            </div>
+                            <!-- /.company-tel -->
+                        </div>
+                        <!-- /.footer-column-contacts -->
+                    </div>
+                    <!--/ footer-column-->
+                    <!--/ About Company-->
+                    <!--Join Our Community-->
+                    <div class="footer-column col-3">
+                        <div class="footer-column-title">
+                            <span>Join Our Community</span>
+                        </div>
+                        <!-- /.footer-column-title -->
+                        <div class="footer-column-devider"></div>
+                        <!-- /.footer-column-devider -->
+                        <div class="footer-column-list">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Forums</a></li>
+                                <li><a href="#">Become an Author</a></li>
+                                <li><a href="#">Community Meetups</a></li>
+                                <li><a href="#">Become an Affiliate</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.footer-column-list -->
+                    </div>
+                    <!--/ footer-column-->
+                    <!--/ Join Our Community-->
+                    <!--Need Help?-->
+                    <div class="footer-column col-3">
+                        <div class="footer-column-title">
+                            <span>Need Help?</span>
+                        </div>
+                        <!-- /.footer-column-title -->
+                        <div class="footer-column-devider"></div>
+                        <!-- /.footer-column-devider -->
+                        <div class="footer-column-list">
+                            <ul>
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Foxtar Market Terms</a></li>
+                                <li><a href="#">Author Terms</a></li>
+                                <li><a href="#">Foxtar Licenses</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.footer-column-list -->
+                    </div>
+                    <!--/ footer-column-->
+                    <!--/ Need Help?-->
+                    <!--Follow Us On-->
+                    <div class="footer-column col-3">
+                        <div class="footer-column-title">
+                            <span>Follow Us On</span>
+                        </div>
+                        <!-- /.footer-column-title -->
+                        <div class="footer-column-devider"></div>
+                        <!-- /.footer-column-devider -->
+                        <div class="footer-column-socials-list">
+                            <ul class="d-flex flex-row justify-content-start">
+                                <li><a href="#"><img src="img/fb.png" alt="Facebook"></a></li>
+                                <li><a href="#"><img src="img/twitter.png" alt="Twitter"></a></li>
+                                <li><a href="#"><img src="img/youtube.png" alt="Youtube"></a></li>
+                                <li><a href="#"><img src="img/pinterest.png" alt="Pinterest"></a></li>
+                                <li><a href="#"><img src="img/linkdn.png" alt="Linkdn"></a></li>
+                            </ul>
+                        </div>
+                        <!-- /.footer-column-socials-list -->
+                        <!--Newsletter form START-->
+                        <div class="footer-newsletter-form">
+                            <div class="footer-column-newsletter-title">
+                                <span>Newsletter Sign Up!</span>
+                            </div>
+                            <!-- /.footer-column-newsletter-title -->
+                            <div class="input-group">
+                                <input type="email" class="form-control footer-newsletter" placeholder="E-mail Address" aria-label="E-mail Address">
+                                <div class="input-group-append">
+                                    <button class="btn footer-newsletter-button" type="button"><i class="fa fa-location-arrow" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Newsletter form END-->
+                    </div>
+                    <!--/ footer-column-->
+                    <!--/ Follow Us On-->
+                </div>
+                <!--/ row-->
+            </div>
+            <!--/ container-->
+        </div>
+        <!--FOOTER-TOP END-->
+        <!--FOOTER-BOTTOM START-->
+        <div class="footer-bottom">
+            <div class="container d-flex justify-content-center">
+                <div class="footer-bottom-text">
+                    <span>© 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.</span>
+                </div>
+                <!-- /.footer-bottom-text -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!--FOOTER-BOTTOM END-->
+    </div>
+    <!--========== FOOTER END ==========-->
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
