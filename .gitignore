@@ -1,6 +1,8 @@
 node_modules
 .idea
 package-lock.json
-style.css
 .gitignore
-page-4.html
+app/css/style.css
+
+
+
