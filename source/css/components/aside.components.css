@@ -8,17 +8,13 @@
 .aside-container .aside-content{
     border: 1px solid #dedede;
 }
-.aside-container .aside-content hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-top: 1px solid #dedede;
-}
 .aside-container .aside-content .aside-title{
     font-size: 20px;
     font-family: "Roboto";
     font-weight: 700;
     color: #263238;
-    margin-bottom: 23px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dde3e8;
 }
 .aside-container .aside-content + .aside-content{
     margin-top: 30px;
