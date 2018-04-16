@@ -639,9 +639,7 @@ button:focus {
     -webkit-box-shadow: 0 0 20px #a1a1a1;
     box-shadow: 0 0 20px #a1a1a1;
 }
-.search-section.bg form .form-control,
-.search-section.small form .form-control
-{
+.search-section form .form-control{
     min-width: 670px;
 }
 .search-section .form-control {
@@ -662,7 +660,7 @@ button:focus {
 .text-center{
     width: 750px;
 }
-.search-section.small span{
+.search-section.small h2{
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -675,12 +673,13 @@ button:focus {
     position: relative;
 }
 .search-section form i{
- position: absolute;
- top: 50%;
- -webkit-transform: translateY(-50%);
- transform: translateY(-50%);
- right: 20px;
- font-size: 20px;
+   position: absolute;
+   top: 50%;
+   -webkit-transform: translateY(-50%);
+   transform: translateY(-50%);
+   right: 20px;
+   font-size: 20px;
+   color: #90a4ae;
 }
 /*---/search-section---*/
 /*---search-section---*/
