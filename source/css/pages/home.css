@@ -41,3 +41,33 @@
     color: #b0bec5;
 }
 /*========== WHY YOU CHOOSE FOXTAR MARKET END ==========*/
+
+/*========== THIS WEEK TRENDING PRODUCTS START ==========*/
+/*TRENDING PRODUCTS CAROUSEL START*/
+.this-week-trending-products .trending-products-carousel .slick-dots {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 67px;
+}
+.this-week-trending-products .trending-products-carousel .slick-dots li {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-color: #e8e8e8;
+    border: 1px solid #b1b1b1;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.this-week-trending-products .trending-products-carousel .slick-dots li button {
+    display: none;
+}
+.this-week-trending-products .trending-products-carousel .slick-dots li + li {
+    margin-left: 7px;
+}
+.this-week-trending-products .trending-products-carousel .slick-dots li.slick-active {
+    background-color: #8bc34a;
+    border: none;
+}
+/*TRENDING PRODUCTS CAROUSEL END*/
+/*========== THIS WEEK TRENDING PRODUCTS END ==========*/
