@@ -73,3 +73,35 @@
 }
 /*TRENDING PRODUCTS CAROUSEL END*/
 /*========== THIS WEEK TRENDING PRODUCTS END ==========*/
+
+/*========== BANNER SECTION START ==========*/
+.banner-section .banner {
+    background-image: url("../../app/img/home-banner-section.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-height: 438px;
+    max-width: 1105px;
+    padding: 114px 226px 107px 226px;
+}
+.banner-section .banner-content {
+    background-color: #8bc34a;
+    padding: 71px 60px 81px 60px;
+}
+.banner-section .banner-text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #ffffff;
+}
+.banner-section .banner-text p span {
+    font-weight: 700;
+
+}
+.banner-section .banner-button button {
+    color: #263238;
+    background-color: #ffffff;
+}
+/*========== BANNER SECTION END ==========*/
