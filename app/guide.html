@@ -1,0 +1,706 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GUIDE - Project "MARKET-PLACE" - homework front-end online 17.02.18</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--Наши стили-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--========== HEADER START ==========-->
+<header id="header">
+    <h1 class="guide-h1">Guideline - Project "MARKET-PLACE"</h1>
+<!--Header guest START-->
+    <div class="guide-section">
+        <h2>Header guest</h2>
+        <!--TOP-HEADER START-->
+        <div class="top-header">
+            <div class="container d-flex align-items-center">
+                <!--LOGO START-->
+                <div class="logo mr-auto">
+                    <a href="#">
+                        <img src="img/logo.png" alt="Logo FOXTAR">
+                    </a>
+                </div>
+                <!-- /.logo -->
+                <!--LOGO END-->
+                <!--TOP-HEADER TEXT START-->
+                <div class="top-header-text">
+                    <span class="text-color-red">Need help?</span>
+                    <span>Talk to an expert: +61 3 8376 6284</span>
+                </div>
+                <!-- /.top-header-text -->
+                <!--TOP-HEADER TEXT END-->
+                <!--TOP-HEADER INFO DROPDOWNS START-->
+                <ul class="header-dropdown-list d-flex justify-content-center">
+                    <li class="dropdown show dropdown-basket">
+                        <a class="dropdown-toggle dropdown-open-menu" id="dropdownBasket" data-toggle="dropdown" aria-haspopup="true"
+                           aria-expanded="false">
+                            <i class="fa fa-shopping-basket drop-icon"> </i>
+                            <span class="count">15</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right"
+                             aria-labelledby="dropdownBasket">
+                            <div  class="dropdown-item d-flex">
+                                <a href="#"><img src="img/dropdown-bascket.png" alt=""/> </a>
+                                <div class="drop-content d-flex">
+                                    <h6>Grand Ballet</h6>
+                                    <span class="drop-content-title">WordPress</span>
+                                    <span class="drop-content-price">59$</span>
+                                </div>
+                                <!-- / .drop-content-->
+                            </div>
+                            <!-- / .dropdown-item  -->
+                            <div class="dropdown-item d-flex aling-item-center">
+                                <a href="#"><img src="img/dropdown-bascket.png" alt=""/> </a>
+                                <div class="drop-content d-flex">
+                                    <h6>Apple Device</h6>
+                                    <span class="drop-content-title">WordPress</span>
+                                    <span class="drop-content-price">69$</span>
+                                </div>
+                                <!-- / .drop-content-->
+                            </div>
+                            <!-- / .dropdown-item  -->
+                            <div class="dropdown-total">
+                                <div class="dropdown-total-item d-flex justify-content-between">
+                                    <span>Total</span>
+                                    <span class="drop-content-price">$128</span>
+                                </div>
+                                <div class=" d-flex justify-content-between align-items-stretch">
+                                    <button class="btn-custom btn-dropdown btn-green">Go to Cart</button>
+                                    <button class="btn-custom btn-dropdown btn-red">Go to Checkout</button>
+                                </div>
+                            </div>
+                            <!-- / .dropdown-total -->
+                        </div>
+                        <!-- / .dropdown-notification -->
+                    </li>
+                    <!-- /.dropdown-basket -->
+                </ul>
+                <!-- /.header-dropdown-list -->
+                <!--TOP-HEADER INFO DROPDOWNS END-->
+                <!--TOP-HEADER USER ACCOUNT START-->
+                <!--TOP-HEADER USER ACCOUNT END-->
+                <!--TOP-HEADER LOGIN|REGISTER|LOGOUT BUTTONS START-->
+                <button class="btn-custom btn-header btn-green">Login</button>
+                <button class="btn-custom btn-header btn-red">Register</button>
+                <!--TOP-HEADER LOGIN|REGISTER|LOGOUT BUTTONS START-->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.top-header -->
+        <!--TOP-HEADER END-->
+        <!--BOTTOM-HEADER START-->
+        <div class="bottom-header">
+            <div class="container">
+                <ul class="header-nav d-flex align-items-center justify-content-start">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">WordPress</a></li>
+                    <li><a href="#">Joomla</a></li>
+                    <li><a href="#">PSD</a></li>
+                    <li><a href="#">Plugins</a></li>
+                    <li><a href="#">Components</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+                <!-- /.header-nav -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.bottom-header -->
+        <!--BOTTOM-HEADER END-->
+    </div>
+<!--Header guest END-->
+<!--Header login START-->
+    <div class="guide-section">
+        <h2>Header login</h2>
+        <!--TOP-HEADER START-->
+        <div class="top-header">
+            <div class="container d-flex align-items-center">
+                <!--LOGO START-->
+                <div class="logo mr-auto">
+                    <a href="#">
+                        <img src="img/logo.png" alt="Logo FOXTAR">
+                    </a>
+                </div>
+                <!-- /.logo -->
+                <!--LOGO END-->
+                <!--TOP-HEADER TEXT START-->
+                <div class="top-header-text">
+                    <span class="text-color-red">Need help?</span>
+                    <span>Talk to an expert: +61 3 8376 6284</span>
+                </div>
+                <!-- /.top-header-text -->
+                <!--TOP-HEADER TEXT END-->
+                <!--TOP-HEADER INFO DROPDOWNS START-->
+                <ul class="header-dropdown-list d-flex justify-content-center">
+                    <li class="dropdown show dropdown-notification ">
+                        <a class="dropdown-toggle dropdown-open-menu" id="dropdownNotification" data-toggle="dropdown"
+                           aria-haspopup="true"
+                           aria-expanded="false">
+                            <i class="fa fa-bell-o drop-icon"> </i>
+                            <span class="count">7</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right"
+                             aria-labelledby="dropdownNotification">
+                            <div  class="dropdown-item d-flex">
+                                <a href="#"><img src="img/dropdown-notification.png" alt=""/> </a>
+                                <div class="drop-content d-flex">
+                                    <h6> Need WP Help!</h6>
+                                    <span class="drop-content-data">01 Dec, 2016</span>
+                                </div>
+                                <!-- / .drop-content-->
+                                <div class="drop-icon">
+                                    <i class="fa fa-bell-o"></i>
+                                </div>
+                                <!-- / .drop-icon -->
+                            </div>
+                            <!-- / .dropdown-item  -->
+                            <div  class="dropdown-item d-flex">
+                                <a href="#"><img src="img/dropdown-notification.png" alt=""/> </a>
+                                <div class="drop-content d-flex">
+                                    <h6> Need WP Help!</h6>
+                                    <span class="drop-content-data">26 Nov, 2016</span>
+                                </div>
+                                <!-- / .drop-content-->
+                                <div class="drop-icon">
+                                    <i class="fa fa-bell-o"></i>
+                                </div>
+                                <!-- / .drop-icon -->
+                            </div>
+                            <!-- / .dropdown-item  -->
+                            <div  class="dropdown-item d-flex">
+                                <a href="#"><img src="img/dropdown-notification.png" alt=""/> </a>
+                                <div class="drop-content d-flex">
+                                    <h6> Psd Template Help!</h6>
+                                    <span class="drop-content-data">26 Nov, 2016</span>
+                                </div>
+                                <!-- / .drop-content-->
+                                <div class="drop-icon">
+                                    <i class="fa fa-bell-o"></i>
+                                </div>
+                                <!-- / .drop-icon -->
+                            </div>
+                            <!-- / .dropdown-item  -->
+                        </div>
+                        <!-- / .dropdown-menu -->
+                    </li>
+                    <!-- /.dropdown-notification -->
+                    <li class="dropdown show dropdown-message ">
+                        <a class="dropdown-toggle dropdown-open-menu" id="dropdownMessage" data-toggle="dropdown"
+                           aria-haspopup="true"
+                           aria-expanded="false">
+                            <i class="fa fa-envelope-o drop-icon"> </i>
+                            <span class="count">9</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right"
+                             aria-labelledby="dropdownMessage">
+                            <div  class="dropdown-item d-flex">
+                                <a href="#"><img src="img/dropdown-notification.png" alt=""/> </a>
+                                <div class="drop-content d-flex">
+                                    <h6>Kazi Fahim</h6>
+                                    <span class="drop-content-title">Need WP Help!</span>
+                                    <span class="drop-content-data">01 Dec, 2016</span>
+                                </div>
+                                <!-- / .drop-content-->
+                                <div class="drop-icon">
+                                    <i class="fa fa-envelope-o"></i>
+                                </div>
+                                <!-- / .drop-icon -->
+                            </div>
+                            <!-- / .dropdown-item  -->
+                            <div  class="dropdown-item d-flex">
+                                <a href="#"><img src="img/dropdown-notification.png" alt=""/> </a>
+                                <div class="drop-content d-flex">
+                                    <h6>Richi Lenal</h6>
+                                    <span class="drop-content-title">Need WP Help!</span>
+                                    <span class="drop-content-data">26 Nov, 2016</span>
+                                </div>
+                                <!-- / .drop-content-->
+                                <div class="drop-icon">
+                                    <i class="fa fa-envelope-o"></i>
+                                </div>
+                                <!-- / .drop-icon -->
+                            </div>
+                            <!-- / .dropdown-item  -->
+                            <div  class="dropdown-item d-flex">
+                                <a href="#"><img src="img/dropdown-notification.png" alt=""/> </a>
+                                <div class="drop-content d-flex">
+                                    <h6>PsdBosS</h6>
+                                    <span class="drop-content-title">Psd Template Help!</span>
+                                    <span class="drop-content-data">26 Nov, 2016</span>
+                                </div>
+                                <!-- / .drop-content-->
+                                <div class="drop-icon">
+                                    <i class="fa fa-reply"></i>
+                                </div>
+                                <!-- / .drop-icon -->
+                            </div>
+                            <!-- / .dropdown-item  -->
+                        </div>
+                        <!-- / .dropdown-menu -->
+                    </li>
+                    <!-- /.dropdown-message -->
+                    <li class="dropdown show dropdown-basket">
+                        <a class="dropdown-toggle dropdown-open-menu" id="dropdownBasket2" data-toggle="dropdown" aria-haspopup="true"
+                           aria-expanded="false">
+                            <i class="fa fa-shopping-basket drop-icon"> </i>
+                            <span class="count">15</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right"
+                             aria-labelledby="dropdownBasket">
+                            <div  class="dropdown-item d-flex">
+                                <a href="#"><img src="img/dropdown-bascket.png" alt=""/> </a>
+                                <div class="drop-content d-flex">
+                                    <h6>Grand Ballet</h6>
+                                    <span class="drop-content-title">WordPress</span>
+                                    <span class="drop-content-price">59$</span>
+                                </div>
+                                <!-- / .drop-content-->
+                            </div>
+                            <!-- / .dropdown-item  -->
+                            <div class="dropdown-item d-flex aling-item-center">
+                                <a href="#"><img src="img/dropdown-bascket.png" alt=""/> </a>
+                                <div class="drop-content d-flex">
+                                    <h6>Apple Device</h6>
+                                    <span class="drop-content-title">WordPress</span>
+                                    <span class="drop-content-price">69$</span>
+                                </div>
+                                <!-- / .drop-content-->
+                            </div>
+                            <!-- / .dropdown-item  -->
+                            <div class="dropdown-total">
+                                <div class="dropdown-total-item d-flex justify-content-between">
+                                    <span>Total</span>
+                                    <span class="drop-content-price">$128</span>
+                                </div>
+                                <div class=" d-flex justify-content-between align-items-stretch">
+                                    <button class="btn-custom btn-dropdown btn-green">Go to Cart</button>
+                                    <button class="btn-custom btn-dropdown btn-red">Go to Checkout</button>
+                                </div>
+                            </div>
+                            <!-- / .dropdown-total -->
+                        </div>
+                        <!-- / .dropdown-notification -->
+                    </li>
+                    <!-- /.dropdown-basket -->
+                    <li class="dropdown show dropdown-account d-flex">
+                        <i class="drop-icon-account dropdown-open-menu" > </i>
+                        <div class="dropdown-account-title d-flex">
+                            <div class="drop-content">
+                                <h6>Mike Hussy</h6>
+                                <span class="drop-account-price">$179</span>
+                            </div>
+                            <!-- / .drop-content-->
+                        </div>
+                        <a class="dropdown-toggle" id="dropdownAccount" data-toggle="dropdown" aria-haspopup="true"
+                           aria-expanded="false">
+                            <i class="fa fa-chevron-down drop-icons"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right"
+                             aria-labelledby="dropdownAccount">
+                            <div  class="dropdown-item-account d-flex flex-column">
+                                <a href="#"><i class="fa fa-chevron-right"> </i><span class="drop-content-title">Profile Page</span> </a>
+                                <a href="#"><i class="fa fa-chevron-right"> </i><span class="drop-content-title">Portfolio</span> </a>
+                                <a href="#"><i class="fa fa-chevron-right"> </i><span class="drop-content-title">Account Setting</span> </a>
+                                <a href="#"><i class="fa fa-chevron-right"> </i><span class="drop-content-title">Downloads</span> </a>
+                                <a href="#"><i class="fa fa-chevron-right"> </i><span class="drop-content-title">Wishlist</span> </a>
+                                <a href="#"><i class="fa fa-chevron-right"> </i><span class="drop-content-title">Upload Item</span> </a>
+                                <a href="#"><i class="fa fa-chevron-right"> </i><span class="drop-content-title">Statement</span> </a>
+                                <a href="#"><i class="fa fa-chevron-right"> </i><span class="drop-content-title">Withdraws</span> </a>
+                            </div>
+                        </div>
+                        <!-- / .dropdown-menu -->
+                    </li>
+                    <!-- /.dropdown-account -->
+                </ul>
+                <!-- /.header-dropdown-list -->
+                <!--TOP-HEADER INFO DROPDOWNS END-->
+                <!--TOP-HEADER USER ACCOUNT START-->
+                <!--TOP-HEADER USER ACCOUNT END-->
+                <!--TOP-HEADER LOGIN|REGISTER|LOGOUT BUTTONS START-->
+                <button class="btn-custom btn-header btn-red">Logout</button>
+                <!--TOP-HEADER LOGIN|REGISTER|LOGOUT BUTTONS START-->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.top-header -->
+        <!--TOP-HEADER END-->
+        <!--BOTTOM-HEADER START-->
+        <div class="bottom-header">
+            <div class="container">
+                <ul class="header-nav d-flex align-items-center justify-content-start">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">WordPress</a></li>
+                    <li><a href="#">Joomla</a></li>
+                    <li><a href="#">PSD</a></li>
+                    <li><a href="#">Plugins</a></li>
+                    <li><a href="#">Components</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+                <!-- /.header-nav -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.bottom-header -->
+        <!--BOTTOM-HEADER END-->
+    </div>
+<!--Header login END-->
+</header>
+<!--========== HEADER END ==========-->
+<!--========== MAIN START ==========-->
+<!--Search section large START-->
+<div class="guide-section">
+    <h2>Search section large</h2>
+    <section id="search-section bg" class="search-section bg ">
+        <div class="col">
+            <h1 class="">Welcome To Foxtar Market Place!</h1>
+        </div>
+        <div class="col align-self-center">
+            <span>Premium WordPress Themes, Web Templates and Many More ...</span>
+        </div>
+        <div class="col">
+            <form><input type="text" name="text" class="form-control" placeholder="Search Your Keywords . . ."></form>
+        </div>
+    </section>
+</div>
+<!--Search section large END-->
+<!--Search section small START-->
+<div class="guide-section">
+    <h2>Search section small</h2>
+    <section id="search-section small" class="search-section small">
+        <div class="col">
+            <span>Premium WordPress Themes, Web Templates and Many More ...</span>
+        </div>
+        <div class="col">
+            <form><input type="text" name="text" class="form-control" placeholder="Search Your Keywords . . ."></form>
+        </div>
+    </section>
+</div>
+<!--Search section small END-->
+<!--Breadcrumbs START-->
+<div class="guide-section">
+    <h2>Breadcrumbs</h2>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Product Page</li>
+            </ul>
+        </nav>
+
+        <nav aria-label="breadcrumb">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">WordPress</a></li>
+                <li class="breadcrumb-item active" aria-current="page">GT Builder Construction</li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<!--Breadcrumbs END-->
+<!--Buttons START-->
+<div class="guide-section">
+    <h2>Buttons</h2>
+    <!--Aside button-->
+    <aside class="aside-button-wrapper">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dicta dolorum eveniet fuga omnis perspiciatis possimus praesentium quam repudiandae rerum! Accusamus at praesentium recusandae rerum voluptate. Error itaque perspiciatis placeat?</p>
+        <button class="btn-custom btn-aside btn-dark-blue">Aside button</button>
+    </aside>
+
+    <!--Default buttons + header button-->
+    <div class="button-wrapper">
+        <button class="btn-custom btn-header btn-red">Logout</button>
+        <button class="btn-custom">Custom button</button>
+        <button class="btn-custom btn-green">Live Preview</button>
+        <button class="btn-custom btn-red">Screenshots</button>
+        <button class="btn-custom btn-blue">Documentation</button>
+        <button class="btn-custom btn-dropdown btn-red">Dropdown button</button>
+        <button class="btn-custom btn-big">Become a Author</button>
+    </div>
+
+    <!--Submit button-->
+    <div class="form-wrapper text-center">
+        <form action="">
+            <button type="submit" class="btn-custom btn-submit btn-green">Submit button</button>
+        </form>
+    </div>
+</div>
+<!--Buttons END-->
+<!--Tags START-->
+<div class="guide-section">
+    <h2>Tags</h2>
+    <section class="tag-section bg-grey">
+        <ul class="tag-list d-flex justify-content-center">
+            <li class="tag-list-item active">
+                <a href="" >All</a>
+            </li>
+            <li class="tag-list-item">
+                <a href="">WordPress</a>
+            </li>
+            <li class="tag-list-item">
+                <a href="">Joomla</a>
+            </li>
+            <li class="tag-list-item">
+                <a href="">Plugins</a>
+            </li>
+            <li class="tag-list-item">
+                <a href="">Component</a>
+            </li>
+            <li class="tag-list-item">
+                <a href="">PSD</a>
+            </li>
+        </ul>
+    </section>
+</div>
+<!--Tags END-->
+<!--Pagination START-->
+<div class="guide-section">
+    <h2>Pagination</h2>
+    <nav aria-label="..." class="bg-grey">
+        <ul class="pagination pagination-lg justify-content-center">
+            <li class="page-item active">
+                <a class="page-link" href="#" tabindex="-1">1</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+        </ul>
+    </nav>
+</div>
+<!--Pagination END-->
+<!--Aside START-->
+<div class="guide-section">
+    <h2>Aside</h2>
+    <div class="container">
+        <div class="row d-flex justify-content-between">
+            <div class="aside-container col-3">
+                <div class="aside-content col-12">
+                    <div class="aside-title">
+                        <span>About Author</span>
+                    </div>
+                    <hr>
+                    <!-- /.aside-title -->
+                    <div>
+                        <p>ASIDE LEFT</p>
+                        <br>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid et id qui repellat? Adipisci beatae doloremque est eum, expedita necessitatibus nobis vitae voluptate? Aperiam architecto culpa cumque illum repellat. Dolores!</p>
+                    </div>
+                </div>
+                <!-- /.aside-content -->
+            </div>
+            <!-- /.aside-container -->
+            <div class="aside-container col-3">
+                <div class="aside-content col-12">
+                    <div class="aside-title">
+                        <span>About Author</span>
+                    </div>
+                    <hr>
+                    <!-- /.aside-title -->
+                    <div>
+                        <p>ASIDE RIGHT</p>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid et id qui repellat? Adipisci beatae doloremque est eum, expedita necessitatibus nobis vitae voluptate? Aperiam architecto culpa cumque illum repellat. Dolores!</p>
+                    </div>
+                </div>
+                <!-- /.aside-content -->
+            </div>
+            <!-- /.aside-container -->
+        </div>
+        <!-- /.row -->
+    </div>
+</div>
+<!--Aside END-->
+<!--Marked list START-->
+<div class="guide-section">
+    <h2>Marked list</h2>
+    <div class="container">
+        <!--Marked-list START-->
+        <div class="marked-list">
+            <ul>
+                <li>Printing and typesetting industry</li>
+                <li>Bhen an unknown printe</li>
+                <li>Handard dummy text</li>
+                <li>Desktop publishing software</li>
+                <li>Bhen an unknown printe</li>
+            </ul>
+        </div>
+        <!--Marked-list END-->
+    </div>
+</div>
+<!--Marked list END-->
+<!--Default section START-->
+<div class="guide-section">
+    <h2>Default section</h2>
+        <section class="default-section">
+            <h2>Default section default bg</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cumque dolores earum, eligendi error facilis fuga incidunt iste, labore minus molestias nesciunt nihil nisi nostrum perferendis quos, sit unde voluptatum.</p>
+        </section>
+        <section class="default-section bg-white">
+            <h2>Default section bg white</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cumque dolores earum, eligendi error facilis fuga incidunt iste, labore minus molestias nesciunt nihil nisi nostrum perferendis quos, sit unde voluptatum.</p>
+        </section>
+         <section class="default-section bg-blue">
+        <h2>Default section bg blue</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cumque dolores earum, eligendi error facilis fuga incidunt iste, labore minus molestias nesciunt nihil nisi nostrum perferendis quos, sit unde voluptatum.</p>
+        </section>
+</div>
+<!--Default section END-->
+<!--========== MAIN END ==========-->
+<!--========== FOOTER START ==========-->
+<div class="guide-section">
+    <h2>Footer</h2>
+    <div id="footer">
+        <!--FOOTER-TOP START-->
+        <div class="footer-top">
+            <div class="container d-flex">
+                <div class="row">
+                    <!--About Company-->
+                    <div class="footer-column col-3">
+                        <div class="footer-column-title">
+                            <span>About Company</span>
+                        </div>
+                        <!-- /.footer-column-title -->
+                        <div class="footer-column-devider"></div>
+                        <!-- /.footer-column-devider -->
+                        <div class="footer-column-text">
+                            <span>Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet urna iat.Praesent vel rutrum purus.</span>
+                        </div>
+                        <!-- /.footer-column-text -->
+                        <div class="footer-column-contacts">
+                            <div class="company-adress d-flex">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <span>PO Box 16122 Collins Street West
+Victoria 8007 Australia</span>
+                            </div>
+                            <!-- /.company-adress -->
+                            <div class="company-tel d-flex">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <span>+61 3 8376 6284</span>
+                            </div>
+                            <!-- /.company-tel -->
+                        </div>
+                        <!-- /.footer-column-contacts -->
+                    </div>
+                    <!--/ footer-column-->
+                    <!--/ About Company-->
+                    <!--Join Our Community-->
+                    <div class="footer-column col-3">
+                        <div class="footer-column-title">
+                            <span>Join Our Community</span>
+                        </div>
+                        <!-- /.footer-column-title -->
+                        <div class="footer-column-devider"></div>
+                        <!-- /.footer-column-devider -->
+                        <div class="footer-column-list">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Forums</a></li>
+                                <li><a href="#">Become an Author</a></li>
+                                <li><a href="#">Community Meetups</a></li>
+                                <li><a href="#">Become an Affiliate</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.footer-column-list -->
+                    </div>
+                    <!--/ footer-column-->
+                    <!--/ Join Our Community-->
+                    <!--Need Help?-->
+                    <div class="footer-column col-3">
+                        <div class="footer-column-title">
+                            <span>Need Help?</span>
+                        </div>
+                        <!-- /.footer-column-title -->
+                        <div class="footer-column-devider"></div>
+                        <!-- /.footer-column-devider -->
+                        <div class="footer-column-list">
+                            <ul>
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Foxtar Market Terms</a></li>
+                                <li><a href="#">Author Terms</a></li>
+                                <li><a href="#">Foxtar Licenses</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.footer-column-list -->
+                    </div>
+                    <!--/ footer-column-->
+                    <!--/ Need Help?-->
+                    <!--Follow Us On-->
+                    <div class="footer-column col-3">
+                        <div class="footer-column-title">
+                            <span>Follow Us On</span>
+                        </div>
+                        <!-- /.footer-column-title -->
+                        <div class="footer-column-devider"></div>
+                        <!-- /.footer-column-devider -->
+                        <div class="footer-column-socials-list">
+                            <ul class="d-flex flex-row justify-content-start">
+                                <li><a href="#"><img src="img/fb.png" alt="Facebook"></a></li>
+                                <li><a href="#"><img src="img/twitter.png" alt="Twitter"></a></li>
+                                <li><a href="#"><img src="img/youtube.png" alt="Youtube"></a></li>
+                                <li><a href="#"><img src="img/pinterest.png" alt="Pinterest"></a></li>
+                                <li><a href="#"><img src="img/linkdn.png" alt="Linkdn"></a></li>
+                            </ul>
+                        </div>
+                        <!-- /.footer-column-socials-list -->
+                        <!--Newsletter form START-->
+                        <div class="footer-newsletter-form">
+                            <div class="footer-column-newsletter-title">
+                                <span>Newsletter Sign Up!</span>
+                            </div>
+                            <!-- /.footer-column-newsletter-title -->
+                            <div class="input-group">
+                                <input type="email" class="form-control footer-newsletter" placeholder="E-mail Address" aria-label="E-mail Address">
+                                <div class="input-group-append">
+                                    <button class="btn footer-newsletter-button" type="button"><i class="fa fa-location-arrow" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Newsletter form END-->
+                    </div>
+                    <!--/ footer-column-->
+                    <!--/ Follow Us On-->
+                </div>
+                <!--/ row-->
+            </div>
+            <!--/ container-->
+        </div>
+        <!--FOOTER-TOP END-->
+        <!--FOOTER-BOTTOM START-->
+        <div class="footer-bottom">
+            <div class="container d-flex justify-content-center">
+                <div class="footer-bottom-text">
+                    <span>© 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.</span>
+                </div>
+                <!-- /.footer-bottom-text -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!--FOOTER-BOTTOM END-->
+    </div>
+</div>
+<!--========== FOOTER END ==========-->
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

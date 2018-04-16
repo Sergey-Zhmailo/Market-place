@@ -28,6 +28,7 @@
     flex-direction: row;
     padding: 0 25px;
 }
+
 .header-dropdown-list li + li{
     margin-left: 15px;
 }
@@ -42,8 +43,7 @@
     border-radius: 18px;
 }
 .dropdown-menu{
-    top: 62px !important;
-    left: 36px !important;
+    top: 26px !important;
     border-bottom: 1px solid #e0e0e0;
     border-radius: 0;
 }
@@ -107,11 +107,6 @@
     color: #ef6c00;
 }
 .btn-dropdown{
-    padding: 13px;
-    font-size: 14px;
-    font-family: "Roboto";
-    color: #F4F6F5;
-    font-weight: 400;
     margin-top: 20px;
 }
 /* Deffault style dropdown end */
@@ -142,16 +137,18 @@
 .dropdown-message .dropdown-item .drop-content h6{
     font-size: 12px;
     font-family: "Roboto";
-    font-weight: 400;
+    font-weight: 700;
     color: #263238;
     line-height: 1.8;
 }
 .dropdown-message .drop-content .drop-content-title{
     font-size: 11px;
     font-family: "Roboto";
+    font-weight: 400;
     color: #84b743;
     line-height: 1.8;
 }
+
 /* Dropdown Message End */
 
 /* Dropdown Bascket Start */
@@ -164,24 +161,27 @@
 .dropdown-basket .dropdown-item .drop-content h6{
     font-size: 15px;
     font-family: "Roboto";
-    font-weight: 300;
+    font-weight: 500;
     color: #263238;
 }
 .dropdown-basket .drop-content .drop-content-title{
     font-size: 12px;
     font-family: "Roboto";
+    font-weight: 400;
     color: #84b743;
     line-height: 1.8;
 }
 .dropdown-basket .drop-content .drop-content-price{
     font-size: 16px;
     font-family: "Roboto";
+    font-weight: 700;
     color: #000;
     line-height: 1.8;
 }
-.dropdown-basket .dropdown-menu .dropdown-total span{
+.dropdown-menu .dropdown-total .dropdown-total-item span{
     font-size: 16px;
     font-family: "Roboto";
+    font-weight: 700;
     color: #000;
 }
 .dropdown-menu .dropdown-total .dropdown-total-item{
@@ -193,6 +193,28 @@
 /* Dropdown Account Start */
 .dropdown-account {
     cursor: pointer;
+}
+.dropdown-account .dropdown-account-title .drop-content{
+    padding: 0 13px;
+}
+.dropdown-account-title .drop-content h6{
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #222;
+}
+.dropdown-account-title .drop-content .drop-account-price{
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 700;
+    color: #8bc34a;
+}
+.dropdown-account .drop-icons{
+    font-size: 12px;
+    color: #707070;
+}
+.dropdown-account:hover .dropdown-open-menu{
+    background-color: #d4d4d4;
 }
 .dropdown-account .dropdown-menu .dropdown-item-account{
     padding: 20px;
@@ -221,29 +243,6 @@
     font-weight: 400;
     color: #8bc34a;
 }
-.dropdown-account .dropdown-account-title .drop-content{
-    padding: 0 13px;
-}
-.dropdown-account-title .drop-content h6{
-    font-size: 14px;
-    font-family: "Roboto";
-    font-weight: 300;
-    color: #222;
-}
-.dropdown-account-title .drop-content .drop-account-price{
-    font-size: 14px;
-    font-family: "Roboto";
-    font-weight: 300;
-    color: #8bc34a;
-}
-.dropdown-account .drop-icons{
-    font-size: 12px;
-    color: #707070;
-}
-.dropdown-account:hover .dropdown-open-menu{
-    background-color: #d4d4d4;
-}
-
 /* Dropdown Account End */
 
 /*========== DROPDOWN HEADER END ==========*/
