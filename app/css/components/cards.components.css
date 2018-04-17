@@ -1,0 +1,164 @@
+/*========== CARDS START ==========*/
+/* ------- Default Style Cards Start------- */
+.card {
+    border-radius: 0;
+    border-color: #d9e0e3;
+}
+.card .card-img img{
+    width: 100%;
+}
+.card .card-info {
+    border-bottom: 1px solid #d9e0e3;
+}
+.card-item-title{
+    font-family: "Roboto";
+    color: #263238;
+    font-weight: 500;
+}
+.card-item-category{
+    font-family: "Roboto";
+    color: #8bc34a;
+    font-weight: 500;
+}
+.card-price{
+    font-family: "Roboto";
+    color: #263238;
+    font-weight: 700;
+}
+.card-author-img img{
+    width: 30px;
+    height: 30px;
+}
+.author-name{
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #546e7a;
+}
+.card-product-rating .list-inline-item{
+    font-size: 12px;
+    font-weight: 400;
+    color: #b5b5b5;
+    cursor: pointer;
+}
+.card-product-rating .list-inline-item:hover{
+    color: #ffa726;
+}
+.card-author .rating-count{
+    font-size: 12px;
+    font-weight: 400;
+    color: #263238;
+}
+
+.card-author .rating-count::after{
+    content: ')';
+    color: #b0bec5;
+    padding: 0 3px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.card-author .rating-count:before{
+    content: '(';
+    color: #b0bec5;
+    padding: 0 3px;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+/* ------- Default Style Cards End------- */
+
+/* ------- Large Cards Start ------- */
+.card.large-card .card-info {
+    padding: 25px 30px 15px;
+}
+.large-card .card-info .card-item-title{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.large-card .card-info .card-item-category{
+    font-size: 14px;
+}
+.large-card .card-info .card-price{
+    font-size: 20px;
+}
+.large-card .card-author .card-author-img .author-name{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.card.large-card .card-author {
+    padding: 20px 30px;
+}
+.large-card .card-product-rating .list-inline-item{
+    margin-right: 0;
+}
+.large-card .card-author .rating-count{
+    margin-left: 13px;
+}
+/* ------- Large Cards End ------- */
+
+/* ------- Medium Cards Start ------- */
+.card.medium-card .card-info {
+    padding: 25px 23px;
+}
+.medium-card .card-info .card-item-title{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.medium-card .card-info .card-item-category{
+    font-size: 14px;
+}
+.medium-card .card-info .card-price{
+    font-size: 20px;
+}
+.medium-card .card-author .card-author-img .author-name{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.card.medium-card .card-author {
+    padding: 20px 20px;
+}
+.medium-card .card-product-rating .list-inline-item{
+    margin-right: -3px;
+}
+.medium-card .card-author .rating-count{
+    margin-left: 8px;
+}
+/* ------- Medium Cards Start ------- */
+
+/* ------- Asaide Cards Start ------- */
+.card.asaide-card{
+    border: none;
+    margin-top: 20px;
+}
+.card.asaide-card .card-info {
+    padding-top: 20px;
+    border: none;
+}
+.asaide-card .card-info .card-item-title{
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+.asaide-card .card-info .card-item-category{
+    font-size: 14px;
+}
+.asaide-card .card-info .card-price{
+    font-size: 16px;
+}
+.asaide-card .card-author{
+    border-bottom: 1px solid #d9e0e3;
+}
+.asaide-card .card-author .card-author-img .author-name{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.card.asaide-card .card-author {
+    padding: 18px 0 28px;
+}
+.asaide-card .card-product-rating .list-inline-item{
+    margin-right: -3px;
+}
+.asaide-card .card-author .rating-count{
+    margin-left: 8px;
+}
+/* ------- Asaide Cards Start ------- */
+
+/*========== CARDS START ==========*/
