@@ -9,7 +9,7 @@
     padding-bottom: 50px;
     border-bottom: 5px dotted #8bc34a;
 }
-.guide-section h2 {
+.guide-section > h2 {
     margin-bottom: 50px;
     text-align: center;
     background-color: #8bc34a;

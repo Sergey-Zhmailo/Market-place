@@ -1,0 +1,2 @@
+ //Select init
+ $('select').styler();
