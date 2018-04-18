@@ -1,4 +1,6 @@
 $( function() {
+    //Select init
+    $('select').styler();
     // SLICK-CAROUSEL INIT
     $('.trending-products-carousel').slick({
         infinite: true,
@@ -8,3 +10,4 @@ $( function() {
         arrows: false
     });
 } );
+
