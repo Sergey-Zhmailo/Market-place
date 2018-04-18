@@ -1,0 +1,11 @@
+/*========== All new items start ==========*/
+
+.marked-list {
+    font-size: 15px;
+}
+
+.marked-list li::before {
+    font-size: 14px;
+}
+
+/*========== All new items start ==========*/

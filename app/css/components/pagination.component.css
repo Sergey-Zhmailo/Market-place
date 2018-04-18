@@ -12,6 +12,7 @@ nav .pagination .page-item a {
     font-size: 16px;
     -webkit-box-shadow: 1px 0 2px rgba(205, 214, 222, .75);
     box-shadow: 1px 0 2px rgba(205, 214, 222, .75);
+    padding: 13px 17px;
 }
 
 nav .pagination .page-item a:hover {
