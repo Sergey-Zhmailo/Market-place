@@ -31,7 +31,7 @@
 .header-dropdown-list li + li{
     margin-left: 15px;
 }
-.header-dropdown-list .dropdown-open-menu{
+.header-dropdown-list .dropdown .dropdown-open-menu{
     position: relative;
     display: inline-flex;
     justify-content: center;
@@ -88,6 +88,9 @@
     margin-left: 15px;
 }
 .dropdown:hover .dropdown-open-menu .drop-icon {
+    color: #111;
+}
+.dropdown.show .dropdown-open-menu .drop-icon{
     color: #111;
 }
 .drop-content .drop-content-data{
@@ -192,6 +195,10 @@
 /* Dropdown Account Start */
 .dropdown-account {
     cursor: pointer;
+}
+.dropdown-account .drop-icon-account{
+    width: 36px;
+    height: 36px;
 }
 .dropdown-account .dropdown-account-title .drop-content{
     padding: 0 13px;
