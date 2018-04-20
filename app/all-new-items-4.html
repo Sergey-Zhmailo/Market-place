@@ -19,9 +19,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.theme.css">
 
-    <!-- Slick-nav -->
-    <link rel="stylesheet" href="css/slicknav.css">
-
     <!-- Slick style -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 
@@ -351,7 +348,10 @@
                             </div>
                             <!-- /.aside-title -->
                             <div id="slider-range" class="price-range"></div>
-                            <a href="#" class="btn-custom btn-aside btn-green">Search</a>
+                            <a href="#" class="btn-custom btn-aside btn-green">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                Search
+                            </a>
                             <!--Marked-list END-->
                         </div>
                         <!-- /.aside-content price-range -->
@@ -468,6 +468,7 @@
                                 <!-- /.card-description -->
                             </div>
                             <!-- / card asaide-card -->
+
                             <a href="#" class="btn-custom btn-aside btn-green">View All</a>
                         </div>
                         <!-- /.aside-content sellers -->
@@ -485,7 +486,7 @@
                                         Sort by: New Items
                                         <i class="fa fa-sort"></i>
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <div class="dropdown-menu" aria-labelledby="dropdown-sort-control">
                                         <a class="dropdown-item" href="#">Name</a>
                                         <a class="dropdown-item" href="#">Price</a>
                                         <a class="dropdown-item" href="#">Something else here</a>
@@ -500,515 +501,548 @@
                                 </button>
                             </div>
                             <!-- / sort controls-->
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <div class="card medium-card">
-                                                <div class="card-img">
-                                                    <a href="#">
-                                                        <img src="img/cards-img.png" alt="">
-                                                    </a>
-                                                </div>
-                                                <!-- /.card-img -->
-                                                <div class="card-description">
-                                                    <div class="card-info d-flex">
-                                                        <div class="d-flex flex-column">
-                                                            <a href="#" class="card-item-title">Business Template</a>
-                                                            <a href="#" class="card-item-category">Joomla</a>
-                                                        </div>
-                                                        <!-- / .card-info-->
-                                                        <span class="card-price ml-auto">$27</span>
-                                                    </div>
-                                                    <!-- /.card-info -->
-                                                    <div class="card-author d-flex align-items-center">
-                                                        <a href="#" class="card-author-img">
-                                                            <img src="img/dropdown-notification.png" alt="">
-                                                            <span class="author-name">PsdBosS</span>
-                                                        </a>
-                                                        <ul class="card-product-rating list-inline ml-auto ">
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                        </ul>
-                                                        <!-- / .card-product-rating -->
-                                                        <span class="rating-count">05</span>
-                                                    </div>
-                                                    <!-- /.card-author -->
-                                                </div>
-                                                <!-- /.card-description -->
+                            <div class="all-items-container">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="card medium-card">
+                                            <div class="card-img">
+                                                <a href="#">
+                                                    <img src="img/cards-img.png" alt="">
+                                                </a>
                                             </div>
-                                            <!-- / card medium-card -->
-                                        </div>
-                                        <!-- / col-->
-                                        <div class="col-4">
-                                            <div class="card medium-card">
-                                                <div class="card-img">
-                                                    <a href="#">
-                                                        <img src="img/cards-img.png" alt="">
+                                            <!-- /.card-img -->
+                                            <div class="card-description">
+                                                <div class="card-info d-flex">
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="card-item-title">Business Template</a>
+                                                        <a href="#" class="card-item-category">Joomla</a>
+                                                    </div>
+                                                    <!-- / .card-info-->
+                                                    <span class="card-price ml-auto">$27</span>
+                                                </div>
+                                                <!-- /.card-info -->
+                                                <div class="card-text-info justify-content-between">
+                                                    <p>Pimply dummy text of the printing and typesetting industry. </p>
+                                                    <span class="sales-count">Sales ( 14 )</span>
+                                                </div>
+                                                <!--/.card-text-info-->
+                                                <div class="card-author d-flex align-items-center">
+                                                    <a href="#" class="card-author-img">
+                                                        <img src="img/dropdown-notification.png" alt="">
+                                                        <span class="author-name">PsdBosS</span>
                                                     </a>
-                                                </div>
-                                                <!-- /.card-img -->
-                                                <div class="card-description">
-                                                    <div class="card-info d-flex">
-                                                        <div class="d-flex flex-column">
-                                                            <a href="#" class="card-item-title">Business Template</a>
-                                                            <a href="#" class="card-item-category">Joomla</a>
+                                                    <ul class="card-product-rating list-inline ml-auto ">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                    <!-- / .card-product-rating -->
+                                                    <span class="rating-count">05</span>
+                                                    <div class="votes">
+                                                        <div class="comments">
+                                                            <span class="comments-line">|</span>
+                                                            <i class="fa fa-comment-o" aria-hidden="true"></i>
+                                                            <span class="comments-count">10</span>
                                                         </div>
-                                                        <!-- / .card-info-->
-                                                        <span class="card-price ml-auto">$27</span>
-                                                    </div>
-                                                    <!-- /.card-info -->
-                                                    <div class="card-author d-flex align-items-center">
-                                                        <a href="#" class="card-author-img">
-                                                            <img src="img/dropdown-notification.png" alt="">
-                                                            <span class="author-name">PsdBosS</span>
-                                                        </a>
-                                                        <ul class="card-product-rating list-inline ml-auto ">
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                        </ul>
-                                                        <!-- / .card-product-rating -->
-                                                        <span class="rating-count">05</span>
-                                                    </div>
-                                                    <!-- /.card-author -->
-                                                </div>
-                                                <!-- /.card-description -->
-                                            </div>
-                                            <!-- / card medium-card -->
-                                        </div>
-                                        <!-- / col-->
-                                        <div class="col-4">
-                                            <div class="card medium-card">
-                                                <div class="card-img">
-                                                    <a href="#">
-                                                        <img src="img/cards-img.png" alt="">
-                                                    </a>
-                                                </div>
-                                                <!-- /.card-img -->
-                                                <div class="card-description">
-                                                    <div class="card-info d-flex">
-                                                        <div class="d-flex flex-column">
-                                                            <a href="#" class="card-item-title">Business Template</a>
-                                                            <a href="#" class="card-item-category">Joomla</a>
+                                                        <div class="likes">
+                                                            <span class="comments-line">|</span>
+                                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                            <span class="likes-count">20</span>
                                                         </div>
-                                                        <!-- / .card-info-->
-                                                        <span class="card-price ml-auto">$27</span>
                                                     </div>
-                                                    <!-- /.card-info -->
-                                                    <div class="card-author d-flex align-items-center">
-                                                        <a href="#" class="card-author-img">
-                                                            <img src="img/dropdown-notification.png" alt="">
-                                                            <span class="author-name">PsdBosS</span>
-                                                        </a>
-                                                        <ul class="card-product-rating list-inline ml-auto ">
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                        </ul>
-                                                        <!-- / .card-product-rating -->
-                                                        <span class="rating-count">05</span>
-                                                    </div>
-                                                    <!-- /.card-author -->
+                                                    <!--/ votes-->
                                                 </div>
-                                                <!-- /.card-description -->
+                                                <!-- /.card-author -->
                                             </div>
-                                            <!-- / card medium-card -->
+                                            <!-- /.card-description -->
                                         </div>
-                                        <!-- / col-->
+                                        <!-- / card medium-card -->
                                     </div>
-                                    <!--/ row-->
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <div class="card medium-card">
-                                                <div class="card-img">
-                                                    <a href="#">
-                                                        <img src="img/cards-img.png" alt="">
-                                                    </a>
-                                                </div>
-                                                <!-- /.card-img -->
-                                                <div class="card-description">
-                                                    <div class="card-info d-flex">
-                                                        <div class="d-flex flex-column">
-                                                            <a href="#" class="card-item-title">Business Template</a>
-                                                            <a href="#" class="card-item-category">Joomla</a>
-                                                        </div>
-                                                        <!-- / .card-info-->
-                                                        <span class="card-price ml-auto">$27</span>
-                                                    </div>
-                                                    <!-- /.card-info -->
-                                                    <div class="card-author d-flex align-items-center">
-                                                        <a href="#" class="card-author-img">
-                                                            <img src="img/dropdown-notification.png" alt="">
-                                                            <span class="author-name">PsdBosS</span>
-                                                        </a>
-                                                        <ul class="card-product-rating list-inline ml-auto ">
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                        </ul>
-                                                        <!-- / .card-product-rating -->
-                                                        <span class="rating-count">05</span>
-                                                    </div>
-                                                    <!-- /.card-author -->
-                                                </div>
-                                                <!-- /.card-description -->
+                                    <!-- / col-->
+                                    <div class="col-4">
+                                        <div class="card medium-card">
+                                            <div class="card-img">
+                                                <a href="#">
+                                                    <img src="img/cards-img.png" alt="">
+                                                </a>
                                             </div>
-                                            <!-- / card medium-card -->
-                                        </div>
-                                        <!-- / col-->
-                                        <div class="col-4">
-                                            <div class="card medium-card">
-                                                <div class="card-img">
-                                                    <a href="#">
-                                                        <img src="img/cards-img.png" alt="">
+                                            <!-- /.card-img -->
+                                            <div class="card-description">
+                                                <div class="card-info d-flex">
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="card-item-title">Business Template</a>
+                                                        <a href="#" class="card-item-category">Joomla</a>
+                                                    </div>
+                                                    <!-- / .card-info-->
+                                                    <span class="card-price ml-auto">$27</span>
+                                                </div>
+                                                <!-- /.card-info -->
+                                                <div class="card-text-info justify-content-between">
+                                                    <p>Pimply dummy text of the printing and typesetting industry. </p>
+                                                    <span class="sales-count">Sales ( 14 )</span>
+                                                </div>
+                                                <!--/.card-text-info-->
+                                                <div class="card-author d-flex align-items-center">
+                                                    <a href="#" class="card-author-img">
+                                                        <img src="img/dropdown-notification.png" alt="">
+                                                        <span class="author-name">PsdBosS</span>
                                                     </a>
-                                                </div>
-                                                <!-- /.card-img -->
-                                                <div class="card-description">
-                                                    <div class="card-info d-flex">
-                                                        <div class="d-flex flex-column">
-                                                            <a href="#" class="card-item-title">Business Template</a>
-                                                            <a href="#" class="card-item-category">Joomla</a>
+                                                    <ul class="card-product-rating list-inline ml-auto ">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                    <!-- / .card-product-rating -->
+                                                    <span class="rating-count">05</span>
+                                                    <div class="votes">
+                                                        <div class="comments">
+                                                            <span class="comments-line">|</span>
+                                                            <i class="fa fa-comment-o" aria-hidden="true"></i>
+                                                            <span class="comments-count">10</span>
                                                         </div>
-                                                        <!-- / .card-info-->
-                                                        <span class="card-price ml-auto">$27</span>
-                                                    </div>
-                                                    <!-- /.card-info -->
-                                                    <div class="card-author d-flex align-items-center">
-                                                        <a href="#" class="card-author-img">
-                                                            <img src="img/dropdown-notification.png" alt="">
-                                                            <span class="author-name">PsdBosS</span>
-                                                        </a>
-                                                        <ul class="card-product-rating list-inline ml-auto ">
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                        </ul>
-                                                        <!-- / .card-product-rating -->
-                                                        <span class="rating-count">05</span>
-                                                    </div>
-                                                    <!-- /.card-author -->
-                                                </div>
-                                                <!-- /.card-description -->
-                                            </div>
-                                            <!-- / card medium-card -->
-                                        </div>
-                                        <!-- / col-->
-                                        <div class="col-4">
-                                            <div class="card medium-card">
-                                                <div class="card-img">
-                                                    <a href="#">
-                                                        <img src="img/cards-img.png" alt="">
-                                                    </a>
-                                                </div>
-                                                <!-- /.card-img -->
-                                                <div class="card-description">
-                                                    <div class="card-info d-flex">
-                                                        <div class="d-flex flex-column">
-                                                            <a href="#" class="card-item-title">Business Template</a>
-                                                            <a href="#" class="card-item-category">Joomla</a>
+                                                        <div class="likes">
+                                                            <span class="comments-line">|</span>
+                                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                                            <span class="likes-count">20</span>
                                                         </div>
-                                                        <!-- / .card-info-->
-                                                        <span class="card-price ml-auto">$27</span>
                                                     </div>
-                                                    <!-- /.card-info -->
-                                                    <div class="card-author d-flex align-items-center">
-                                                        <a href="#" class="card-author-img">
-                                                            <img src="img/dropdown-notification.png" alt="">
-                                                            <span class="author-name">PsdBosS</span>
-                                                        </a>
-                                                        <ul class="card-product-rating list-inline ml-auto ">
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                        </ul>
-                                                        <!-- / .card-product-rating -->
-                                                        <span class="rating-count">05</span>
-                                                    </div>
-                                                    <!-- /.card-author -->
+                                                    <!--/ votes-->
                                                 </div>
-                                                <!-- /.card-description -->
+                                                <!-- /.card-author -->
                                             </div>
-                                            <!-- / card medium-card -->
+                                            <!-- /.card-description -->
                                         </div>
-                                        <!-- / col-->
+                                        <!-- / card medium-card -->
                                     </div>
-                                    <!--/ row-->
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <div class="card medium-card">
-                                                <div class="card-img">
-                                                    <a href="#">
-                                                        <img src="img/cards-img.png" alt="">
-                                                    </a>
-                                                </div>
-                                                <!-- /.card-img -->
-                                                <div class="card-description">
-                                                    <div class="card-info d-flex">
-                                                        <div class="d-flex flex-column">
-                                                            <a href="#" class="card-item-title">Business Template</a>
-                                                            <a href="#" class="card-item-category">Joomla</a>
-                                                        </div>
-                                                        <!-- / .card-info-->
-                                                        <span class="card-price ml-auto">$27</span>
-                                                    </div>
-                                                    <!-- /.card-info -->
-                                                    <div class="card-author d-flex align-items-center">
-                                                        <a href="#" class="card-author-img">
-                                                            <img src="img/dropdown-notification.png" alt="">
-                                                            <span class="author-name">PsdBosS</span>
-                                                        </a>
-                                                        <ul class="card-product-rating list-inline ml-auto ">
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                        </ul>
-                                                        <!-- / .card-product-rating -->
-                                                        <span class="rating-count">05</span>
-                                                    </div>
-                                                    <!-- /.card-author -->
-                                                </div>
-                                                <!-- /.card-description -->
+                                    <!-- / col-->
+                                    <div class="col-4">
+                                        <div class="card medium-card">
+                                            <div class="card-img">
+                                                <a href="#">
+                                                    <img src="img/cards-img.png" alt="">
+                                                </a>
                                             </div>
-                                            <!-- / card medium-card -->
-                                        </div>
-                                        <!-- / col-->
-                                        <div class="col-4">
-                                            <div class="card medium-card">
-                                                <div class="card-img">
-                                                    <a href="#">
-                                                        <img src="img/cards-img.png" alt="">
+                                            <!-- /.card-img -->
+                                            <div class="card-description">
+                                                <div class="card-info d-flex">
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="card-item-title">Business Template</a>
+                                                        <a href="#" class="card-item-category">Joomla</a>
+                                                    </div>
+                                                    <!-- / .card-info-->
+                                                    <span class="card-price ml-auto">$27</span>
+                                                </div>
+                                                <!-- /.card-info -->
+                                                <div class="card-author d-flex align-items-center">
+                                                    <a href="#" class="card-author-img">
+                                                        <img src="img/dropdown-notification.png" alt="">
+                                                        <span class="author-name">PsdBosS</span>
                                                     </a>
+                                                    <ul class="card-product-rating list-inline ml-auto ">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                    <!-- / .card-product-rating -->
+                                                    <span class="rating-count">05</span>
                                                 </div>
-                                                <!-- /.card-img -->
-                                                <div class="card-description">
-                                                    <div class="card-info d-flex">
-                                                        <div class="d-flex flex-column">
-                                                            <a href="#" class="card-item-title">Business Template</a>
-                                                            <a href="#" class="card-item-category">Joomla</a>
-                                                        </div>
-                                                        <!-- / .card-info-->
-                                                        <span class="card-price ml-auto">$27</span>
-                                                    </div>
-                                                    <!-- /.card-info -->
-                                                    <div class="card-author d-flex align-items-center">
-                                                        <a href="#" class="card-author-img">
-                                                            <img src="img/dropdown-notification.png" alt="">
-                                                            <span class="author-name">PsdBosS</span>
-                                                        </a>
-                                                        <ul class="card-product-rating list-inline ml-auto ">
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                        </ul>
-                                                        <!-- / .card-product-rating -->
-                                                        <span class="rating-count">05</span>
-                                                    </div>
-                                                    <!-- /.card-author -->
-                                                </div>
-                                                <!-- /.card-description -->
+                                                <!-- /.card-author -->
                                             </div>
-                                            <!-- / card medium-card -->
+                                            <!-- /.card-description -->
                                         </div>
-                                        <!-- / col-->
-                                        <div class="col-4">
-                                            <div class="card medium-card">
-                                                <div class="card-img">
-                                                    <a href="#">
-                                                        <img src="img/cards-img.png" alt="">
-                                                    </a>
-                                                </div>
-                                                <!-- /.card-img -->
-                                                <div class="card-description">
-                                                    <div class="card-info d-flex">
-                                                        <div class="d-flex flex-column">
-                                                            <a href="#" class="card-item-title">Business Template</a>
-                                                            <a href="#" class="card-item-category">Joomla</a>
-                                                        </div>
-                                                        <!-- / .card-info-->
-                                                        <span class="card-price ml-auto">$27</span>
-                                                    </div>
-                                                    <!-- /.card-info -->
-                                                    <div class="card-author d-flex align-items-center">
-                                                        <a href="#" class="card-author-img">
-                                                            <img src="img/dropdown-notification.png" alt="">
-                                                            <span class="author-name">PsdBosS</span>
-                                                        </a>
-                                                        <ul class="card-product-rating list-inline ml-auto ">
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                        </ul>
-                                                        <!-- / .card-product-rating -->
-                                                        <span class="rating-count">05</span>
-                                                    </div>
-                                                    <!-- /.card-author -->
-                                                </div>
-                                                <!-- /.card-description -->
-                                            </div>
-                                            <!-- / card medium-card -->
-                                        </div>
-                                        <!-- / col-->
+                                        <!-- / card medium-card -->
                                     </div>
-                                    <!--/ row-->
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <div class="card medium-card">
-                                                <div class="card-img">
-                                                    <a href="#">
-                                                        <img src="img/cards-img.png" alt="">
-                                                    </a>
-                                                </div>
-                                                <!-- /.card-img -->
-                                                <div class="card-description">
-                                                    <div class="card-info d-flex">
-                                                        <div class="d-flex flex-column">
-                                                            <a href="#" class="card-item-title">Business Template</a>
-                                                            <a href="#" class="card-item-category">Joomla</a>
-                                                        </div>
-                                                        <!-- / .card-info-->
-                                                        <span class="card-price ml-auto">$27</span>
-                                                    </div>
-                                                    <!-- /.card-info -->
-                                                    <div class="card-author d-flex align-items-center">
-                                                        <a href="#" class="card-author-img">
-                                                            <img src="img/dropdown-notification.png" alt="">
-                                                            <span class="author-name">PsdBosS</span>
-                                                        </a>
-                                                        <ul class="card-product-rating list-inline ml-auto ">
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                        </ul>
-                                                        <!-- / .card-product-rating -->
-                                                        <span class="rating-count">05</span>
-                                                    </div>
-                                                    <!-- /.card-author -->
-                                                </div>
-                                                <!-- /.card-description -->
-                                            </div>
-                                            <!-- / card medium-card -->
-                                        </div>
-                                        <!-- / col-->
-                                        <div class="col-4">
-                                            <div class="card medium-card">
-                                                <div class="card-img">
-                                                    <a href="#">
-                                                        <img src="img/cards-img.png" alt="">
-                                                    </a>
-                                                </div>
-                                                <!-- /.card-img -->
-                                                <div class="card-description">
-                                                    <div class="card-info d-flex">
-                                                        <div class="d-flex flex-column">
-                                                            <a href="#" class="card-item-title">Business Template</a>
-                                                            <a href="#" class="card-item-category">Joomla</a>
-                                                        </div>
-                                                        <!-- / .card-info-->
-                                                        <span class="card-price ml-auto">$27</span>
-                                                    </div>
-                                                    <!-- /.card-info -->
-                                                    <div class="card-author d-flex align-items-center">
-                                                        <a href="#" class="card-author-img">
-                                                            <img src="img/dropdown-notification.png" alt="">
-                                                            <span class="author-name">PsdBosS</span>
-                                                        </a>
-                                                        <ul class="card-product-rating list-inline ml-auto ">
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                        </ul>
-                                                        <!-- / .card-product-rating -->
-                                                        <span class="rating-count">05</span>
-                                                    </div>
-                                                    <!-- /.card-author -->
-                                                </div>
-                                                <!-- /.card-description -->
-                                            </div>
-                                            <!-- / card medium-card -->
-                                        </div>
-                                        <!-- / col-->
-                                        <div class="col-4">
-                                            <div class="card medium-card">
-                                                <div class="card-img">
-                                                    <a href="#">
-                                                        <img src="img/cards-img.png" alt="">
-                                                    </a>
-                                                </div>
-                                                <!-- /.card-img -->
-                                                <div class="card-description">
-                                                    <div class="card-info d-flex">
-                                                        <div class="d-flex flex-column">
-                                                            <a href="#" class="card-item-title">Business Template</a>
-                                                            <a href="#" class="card-item-category">Joomla</a>
-                                                        </div>
-                                                        <!-- / .card-info-->
-                                                        <span class="card-price ml-auto">$27</span>
-                                                    </div>
-                                                    <!-- /.card-info -->
-                                                    <div class="card-author d-flex align-items-center">
-                                                        <a href="#" class="card-author-img">
-                                                            <img src="img/dropdown-notification.png" alt="">
-                                                            <span class="author-name">PsdBosS</span>
-                                                        </a>
-                                                        <ul class="card-product-rating list-inline ml-auto ">
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                        </ul>
-                                                        <!-- / .card-product-rating -->
-                                                        <span class="rating-count">05</span>
-                                                    </div>
-                                                    <!-- /.card-author -->
-                                                </div>
-                                                <!-- /.card-description -->
-                                            </div>
-                                            <!-- / card medium-card -->
-                                        </div>
-                                        <!-- / col-->
-                                    </div>
-                                    <!--/ row-->
-                                    <nav aria-label="...">
-                                        <ul class="pagination">
-                                            <li class="page-item active">
-                                                <a class="page-link" href="#" tabindex="-1">1</a>
-                                            </li>
-                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">3</a>
-                                            <li class="page-item"><a class="page-link" href="#">4</a></li>
-                                        </ul>
-                                    </nav>
-                                    <!-- / pagination-->
+                                    <!-- / col-->
                                 </div>
-                                <!-- / col-->
+                                <!--/ row-->
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="card medium-card">
+                                            <div class="card-img">
+                                                <a href="#">
+                                                    <img src="img/cards-img.png" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- /.card-img -->
+                                            <div class="card-description">
+                                                <div class="card-info d-flex">
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="card-item-title">Business Template</a>
+                                                        <a href="#" class="card-item-category">Joomla</a>
+                                                    </div>
+                                                    <!-- / .card-info-->
+                                                    <span class="card-price ml-auto">$27</span>
+                                                </div>
+                                                <!-- /.card-info -->
+                                                <div class="card-author d-flex align-items-center">
+                                                    <a href="#" class="card-author-img">
+                                                        <img src="img/dropdown-notification.png" alt="">
+                                                        <span class="author-name">PsdBosS</span>
+                                                    </a>
+                                                    <ul class="card-product-rating list-inline ml-auto ">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                    <!-- / .card-product-rating -->
+                                                    <span class="rating-count">05</span>
+                                                </div>
+                                                <!-- /.card-author -->
+                                            </div>
+                                            <!-- /.card-description -->
+                                        </div>
+                                        <!-- / card medium-card -->
+                                    </div>
+                                    <!-- / col-->
+                                    <div class="col-4">
+                                        <div class="card medium-card">
+                                            <div class="card-img">
+                                                <a href="#">
+                                                    <img src="img/cards-img.png" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- /.card-img -->
+                                            <div class="card-description">
+                                                <div class="card-info d-flex">
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="card-item-title">Business Template</a>
+                                                        <a href="#" class="card-item-category">Joomla</a>
+                                                    </div>
+                                                    <!-- / .card-info-->
+                                                    <span class="card-price ml-auto">$27</span>
+                                                </div>
+                                                <!-- /.card-info -->
+                                                <div class="card-author d-flex align-items-center">
+                                                    <a href="#" class="card-author-img">
+                                                        <img src="img/dropdown-notification.png" alt="">
+                                                        <span class="author-name">PsdBosS</span>
+                                                    </a>
+                                                    <ul class="card-product-rating list-inline ml-auto ">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                    <!-- / .card-product-rating -->
+                                                    <span class="rating-count">05</span>
+                                                </div>
+                                                <!-- /.card-author -->
+                                            </div>
+                                            <!-- /.card-description -->
+                                        </div>
+                                        <!-- / card medium-card -->
+                                    </div>
+                                    <!-- / col-->
+                                    <div class="col-4">
+                                        <div class="card medium-card">
+                                            <div class="card-img">
+                                                <a href="#">
+                                                    <img src="img/cards-img.png" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- /.card-img -->
+                                            <div class="card-description">
+                                                <div class="card-info d-flex">
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="card-item-title">Business Template</a>
+                                                        <a href="#" class="card-item-category">Joomla</a>
+                                                    </div>
+                                                    <!-- / .card-info-->
+                                                    <span class="card-price ml-auto">$27</span>
+                                                </div>
+                                                <!-- /.card-info -->
+                                                <div class="card-author d-flex align-items-center">
+                                                    <a href="#" class="card-author-img">
+                                                        <img src="img/dropdown-notification.png" alt="">
+                                                        <span class="author-name">PsdBosS</span>
+                                                    </a>
+                                                    <ul class="card-product-rating list-inline ml-auto ">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                    <!-- / .card-product-rating -->
+                                                    <span class="rating-count">05</span>
+                                                </div>
+                                                <!-- /.card-author -->
+                                            </div>
+                                            <!-- /.card-description -->
+                                        </div>
+                                        <!-- / card medium-card -->
+                                    </div>
+                                    <!-- / col-->
+                                </div>
+                                <!--/ row-->
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="card medium-card">
+                                            <div class="card-img">
+                                                <a href="#">
+                                                    <img src="img/cards-img.png" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- /.card-img -->
+                                            <div class="card-description">
+                                                <div class="card-info d-flex">
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="card-item-title">Business Template</a>
+                                                        <a href="#" class="card-item-category">Joomla</a>
+                                                    </div>
+                                                    <!-- / .card-info-->
+                                                    <span class="card-price ml-auto">$27</span>
+                                                </div>
+                                                <!-- /.card-info -->
+                                                <div class="card-author d-flex align-items-center">
+                                                    <a href="#" class="card-author-img">
+                                                        <img src="img/dropdown-notification.png" alt="">
+                                                        <span class="author-name">PsdBosS</span>
+                                                    </a>
+                                                    <ul class="card-product-rating list-inline ml-auto ">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                    <!-- / .card-product-rating -->
+                                                    <span class="rating-count">05</span>
+                                                </div>
+                                                <!-- /.card-author -->
+                                            </div>
+                                            <!-- /.card-description -->
+                                        </div>
+                                        <!-- / card medium-card -->
+                                    </div>
+                                    <!-- / col-->
+                                    <div class="col-4">
+                                        <div class="card medium-card">
+                                            <div class="card-img">
+                                                <a href="#">
+                                                    <img src="img/cards-img.png" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- /.card-img -->
+                                            <div class="card-description">
+                                                <div class="card-info d-flex">
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="card-item-title">Business Template</a>
+                                                        <a href="#" class="card-item-category">Joomla</a>
+                                                    </div>
+                                                    <!-- / .card-info-->
+                                                    <span class="card-price ml-auto">$27</span>
+                                                </div>
+                                                <!-- /.card-info -->
+                                                <div class="card-author d-flex align-items-center">
+                                                    <a href="#" class="card-author-img">
+                                                        <img src="img/dropdown-notification.png" alt="">
+                                                        <span class="author-name">PsdBosS</span>
+                                                    </a>
+                                                    <ul class="card-product-rating list-inline ml-auto ">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                    <!-- / .card-product-rating -->
+                                                    <span class="rating-count">05</span>
+                                                </div>
+                                                <!-- /.card-author -->
+                                            </div>
+                                            <!-- /.card-description -->
+                                        </div>
+                                        <!-- / card medium-card -->
+                                    </div>
+                                    <!-- / col-->
+                                    <div class="col-4">
+                                        <div class="card medium-card">
+                                            <div class="card-img">
+                                                <a href="#">
+                                                    <img src="img/cards-img.png" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- /.card-img -->
+                                            <div class="card-description">
+                                                <div class="card-info d-flex">
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="card-item-title">Business Template</a>
+                                                        <a href="#" class="card-item-category">Joomla</a>
+                                                    </div>
+                                                    <!-- / .card-info-->
+                                                    <span class="card-price ml-auto">$27</span>
+                                                </div>
+                                                <!-- /.card-info -->
+                                                <div class="card-author d-flex align-items-center">
+                                                    <a href="#" class="card-author-img">
+                                                        <img src="img/dropdown-notification.png" alt="">
+                                                        <span class="author-name">PsdBosS</span>
+                                                    </a>
+                                                    <ul class="card-product-rating list-inline ml-auto ">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                    <!-- / .card-product-rating -->
+                                                    <span class="rating-count">05</span>
+                                                </div>
+                                                <!-- /.card-author -->
+                                            </div>
+                                            <!-- /.card-description -->
+                                        </div>
+                                        <!-- / card medium-card -->
+                                    </div>
+                                    <!-- / col-->
+                                </div>
+                                <!--/ row-->
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="card medium-card">
+                                            <div class="card-img">
+                                                <a href="#">
+                                                    <img src="img/cards-img.png" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- /.card-img -->
+                                            <div class="card-description">
+                                                <div class="card-info d-flex">
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="card-item-title">Business Template</a>
+                                                        <a href="#" class="card-item-category">Joomla</a>
+                                                    </div>
+                                                    <!-- / .card-info-->
+                                                    <span class="card-price ml-auto">$27</span>
+                                                </div>
+                                                <!-- /.card-info -->
+                                                <div class="card-author d-flex align-items-center">
+                                                    <a href="#" class="card-author-img">
+                                                        <img src="img/dropdown-notification.png" alt="">
+                                                        <span class="author-name">PsdBosS</span>
+                                                    </a>
+                                                    <ul class="card-product-rating list-inline ml-auto ">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                    <!-- / .card-product-rating -->
+                                                    <span class="rating-count">05</span>
+                                                </div>
+                                                <!-- /.card-author -->
+                                            </div>
+                                            <!-- /.card-description -->
+                                        </div>
+                                        <!-- / card medium-card -->
+                                    </div>
+                                    <!-- / col-->
+                                    <div class="col-4">
+                                        <div class="card medium-card">
+                                            <div class="card-img">
+                                                <a href="#">
+                                                    <img src="img/cards-img.png" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- /.card-img -->
+                                            <div class="card-description">
+                                                <div class="card-info d-flex">
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="card-item-title">Business Template</a>
+                                                        <a href="#" class="card-item-category">Joomla</a>
+                                                    </div>
+                                                    <!-- / .card-info-->
+                                                    <span class="card-price ml-auto">$27</span>
+                                                </div>
+                                                <!-- /.card-info -->
+                                                <div class="card-author d-flex align-items-center">
+                                                    <a href="#" class="card-author-img">
+                                                        <img src="img/dropdown-notification.png" alt="">
+                                                        <span class="author-name">PsdBosS</span>
+                                                    </a>
+                                                    <ul class="card-product-rating list-inline ml-auto ">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                    <!-- / .card-product-rating -->
+                                                    <span class="rating-count">05</span>
+                                                </div>
+                                                <!-- /.card-author -->
+                                            </div>
+                                            <!-- /.card-description -->
+                                        </div>
+                                        <!-- / card medium-card -->
+                                    </div>
+                                    <!-- / col-->
+                                    <div class="col-4">
+                                        <div class="card medium-card">
+                                            <div class="card-img">
+                                                <a href="#">
+                                                    <img src="img/cards-img.png" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- /.card-img -->
+                                            <div class="card-description">
+                                                <div class="card-info d-flex">
+                                                    <div class="d-flex flex-column">
+                                                        <a href="#" class="card-item-title">Business Template</a>
+                                                        <a href="#" class="card-item-category">Joomla</a>
+                                                    </div>
+                                                    <!-- / .card-info-->
+                                                    <span class="card-price ml-auto">$27</span>
+                                                </div>
+                                                <!-- /.card-info -->
+                                                <div class="card-author d-flex align-items-center">
+                                                    <a href="#" class="card-author-img">
+                                                        <img src="img/dropdown-notification.png" alt="">
+                                                        <span class="author-name">PsdBosS</span>
+                                                    </a>
+                                                    <ul class="card-product-rating list-inline ml-auto ">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                    <!-- / .card-product-rating -->
+                                                    <span class="rating-count">05</span>
+                                                </div>
+                                                <!-- /.card-author -->
+                                            </div>
+                                            <!-- /.card-description -->
+                                        </div>
+                                        <!-- / card medium-card -->
+                                    </div>
+                                    <!-- / col-->
+                                </div>
+                                <!--/ row-->
                             </div>
-                            <!-- / row-->
+                            <!-- / all-items-container-->
+                            <nav aria-label="...">
+                                <ul class="pagination">
+                                    <li class="page-item active">
+                                        <a class="page-link" href="#" tabindex="-1">1</a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a>
+                                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                </ul>
+                            </nav>
+                            <!-- / pagination-->
                         </div>
                         <!-- /page content-->
                     </div>
@@ -1171,6 +1205,7 @@
 
     <!-- Slick-nav -->
     <script src="js/jquery.slicknav.min.js"></script>
+
 
     <!-- Init plugins -->
     <script src="js/init.js"></script>

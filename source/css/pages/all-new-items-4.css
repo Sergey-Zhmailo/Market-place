@@ -20,6 +20,11 @@
 
 .marked-list li {
     position: relative;
+    line-height: 40px;
+}
+
+.marked-list.aside-marked-list {
+    margin-top: 23px;
 }
 
 .marked-list.aside-marked-list li::before {
@@ -74,6 +79,14 @@
     background-color: #fff;
 }
 
+.btn-custom.btn-aside {
+    position: relative;
+}
+.btn-custom.btn-aside i {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
 /* aside styles end */
 
 /* Page content styles*/
@@ -97,10 +110,138 @@
     box-shadow: none;
     color: #707070;
 }
-
+.sort-controls .grid-thumbs {
+    margin-right: 15px;
+}
+.sort-controls .grid-thumbs,
+.sort-controls .grid-list {
+    color: #90a4ae;
+}
+.sort-controls .grid-thumbs.active,
+.sort-controls .grid-list.active{
+    color: #8bc34a;
+}
 .page-content .row + .row {
     margin-top: 30px;
 }
+
+.card .card-text-info {
+    display: none;
+}
+.card .votes {
+    display: none;
+}
+.card.row-card .votes {
+    display: flex;
+}
+.card .card-author .comments,
+.card .card-author .likes{
+    font-size: 12px;
+    color: #263238;
+}
+
+.card .card-author .comments .comments-count::before,
+.card .card-author .likes .likes-count::before {
+    content: "(";
+    color: #b0bec5;
+    margin-right: 3px;
+}
+.card .card-author .comments .comments-count::after,
+.card .card-author .likes .likes-count::after {
+    content: ")";
+    color: #b0bec5;
+    margin-left: 3px;
+}
+.card .card-author .comments i,
+.card .card-author .likes i {
+    color: #8bc34a;
+    margin: 0 18px;
+}
+.card .card-author .comments-line {
+    color: #aeb4bb;
+    margin-left: 27px;
+}
+/* row-card styles*/
+.card .card-text-info {
+    display: none;
+}
+
+.card.row-card .card-text-info{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.card.row-card {
+    display: flex;
+    margin-bottom: 30px;
+    border: none;
+    flex-direction: row;
+}
+.card.row-card .card-img {
+    flex: 3;
+    position: relative;
+}
+.card.row-card .card-img img{
+    display: block;
+    height: 100%;
+}
+.card.row-card .card-text-info {
+    display: flex;
+    padding: 0 30px;
+    font-size: 14px;
+    color: #70838d;
+}
+.card.row-card .card-info {
+    padding: 22px 30px 15px;
+    border-bottom: none;
+}
+.card.row-card .card-author {
+    border-top: 1px solid #d9e0e3;
+}
+.card.row-card .card-description {
+    flex: 8;
+    background: #ffffff;
+}
+.card.row-card .card-item-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.card.row-card .price-sale {
+    display: inline-block;
+    font:  400 13px 'Roboto', sans-serif;
+    color:#aeb4bb;
+}
+.card .card-info .card-text {
+    font:  400 14px 'Roboto', sans-serif;
+    color: #70838d;
+}
+.card.row-card .price-sale span {
+    display: block;
+}
+.card.row-card .card-price {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.card.row-card .item-category {
+    padding-bottom: 20px;
+}
+.card.row-card .card-author {
+    padding: 15px 30px;
+}
+.card.row-card .card-author span i{
+    border-left: 1px solid #000;
+    padding-left:18px;
+    font-size: 16px;
+    color: #8bc34a;
+    margin-left: 30px;
+}
+span.icon-rating{
+    padding-right: 10px;
+
+}
+
+/* row-card styles end*/
 
 /* Page content styles end */
 
