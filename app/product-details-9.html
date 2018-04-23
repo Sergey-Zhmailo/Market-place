@@ -330,53 +330,56 @@
                             </div>
                             <!--/ social-->
                             <div class="tabs-wrapper">
-                                <ul class="nav nav-tabs">
+                                <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                     <li class="nav-item">
-                                        <a class="nav-link active" href="#item-features">Item Features</a>
-                                        <!--Marked-list END-->
+                                        <a class="nav-link active" id="phils-features-tab" data-toggle="pill" href="#pills-item-features" role="tab" aria-controls="pills-item-features" aria-selected="true">Item Features</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#comments">Comments</a>
+                                        <a class="nav-link" id="pills-comments-tab" data-toggle="pill" href="#pills-comments" role="tab" aria-controls="pills-comments" aria-selected="false">Comments</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#reviews">Reviews</a>
+                                        <a class="nav-link" id="pills-reviewst-tab" data-toggle="pill" href="#pills-reviews" role="tab" aria-controls="pills-reviews" aria-selected="false">Reviews</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#support">Support</a>
+                                        <a class="nav-link" id="pills-support-tab" data-toggle="pill" href="#pills-support" role="tab" aria-controls="pills-support" aria-selected="false">Support</a>
                                     </li>
                                 </ul>
-                                <div class="tabs-content">
-                                    <div id="item-features">
-                                        <ul class="marked-list">
-                                            <li>Printing and typesetting industry</li>
-                                            <li>Bhen an unknown printe</li>
-                                            <li>Handard dummy text</li>
-                                            <li>Desktop publishing software</li>
-                                            <li>Bhen an unknown printe</li>
-                                        </ul>
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-item-features" role="tabpanel" aria-labelledby="pills-item-features-tab">
+                                        <div class="marked-list">
+                                            <ul>
+                                                <li>Printing and typesetting industry</li>
+                                                <li>Bhen an unknown printe</li>
+                                                <li>Handard dummy text</li>
+                                                <li>Desktop publishing software</li>
+                                                <li>Bhen an unknown printe</li>
+                                                <li>Printing and typesetting industry</li>
+                                                <li>Bhen an unknown printe</li>
+                                                <li>Handard dummy text</li>
+                                            </ul>
+                                        </div>
+                                        <!--Marked-list END-->
                                     </div>
-                                    <div id="comments">
-                                        <ul class="marked-list">
-                                            <li>Printing and typesetting industry</li>
-                                            <li>Bhen an unknown printe</li>
-                                        </ul>
+                                    <div class="tab-pane fade" id="pills-comments" role="tabpanel" aria-labelledby="pills-comments-tab">
+                                        <div class="marked-list">
+                                            <ul>
+                                                <li>Printing and typesetting industry</li>
+                                                <li>Bhen an unknown printe</li>
+                                                <li>Handard dummy text</li>
+                                                <li>Desktop publishing software</li>
+                                                <li>Bhen an unknown printe</li>
+                                            </ul>
+                                        </div>
+                                        <!--Marked-list END-->
                                     </div>
-                                    <div id="reviews">
-                                        <ul class="marked-list">
-                                            <li>Printing and typesetting industry</li>
-                                            <li>Bhen an unknown printe</li>
-                                        </ul>
-                                    </div>
-                                    <div id="support">
-                                        <ul class="marked-list">
-                                            <li>Printing and typesetting industry</li>
-                                            <li>Bhen an unknown printe</li>
-                                        </ul>
-                                    </div>
+                                    <div class="tab-pane fade" id="pills-reviews" role="tabpanel" aria-labelledby="pills-reviews-tab">...</div>
+                                    <div class="tab-pane fade" id="pills-support" role="tabpanel" aria-labelledby="pills-support-tab">Kappa</div>
                                 </div>
-                                <!--/ tabs-content-->
                             </div>
                             <!--/tabs-wrapper-->
+                            <div class="more-products">
+                                <span class="more-products-text">More Products by PsdBosS</span>
+                            </div>
                         </div>
                         <!--/ product-details-content-->
                     </div>
@@ -429,9 +432,9 @@
                                 <!--/ author-img-->
                                 <div class="view-profile d-flex flex-column justify-content-between">
                                     <span class="product-author-name">PsdBoss</span>
-                                    <a class="btn-custom btn-small">View Profile</a>
+                                    <a href=""class="btn-custom btn-small">View Profile</a>
                                 </div>
-
+                                <!--/ view profile-->
                             </div>
                             <!--product-author-content-->
                         </div>
