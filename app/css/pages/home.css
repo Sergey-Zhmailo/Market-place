@@ -1,9 +1,21 @@
 /*========== HOME STYLES START ==========*/
 
 /*========== NEWEST RELEASE PRODCUTS START ==========*/
-.newest-release-prodcuts .bottom-tags li {
+.newest-release-prodcuts .bottom-tags {
+    margin-top: 47px;
+}
+.newest-release-prodcuts .bottom-tags button {
     margin-right: 6px;
     margin-left: 6px;
+    max-width: 165px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #263238;
 }
 .newest-release-prodcuts .newest-release-prodcuts-cards .col {
     margin-bottom: 30px;
