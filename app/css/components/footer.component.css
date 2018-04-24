@@ -9,23 +9,18 @@
     font-weight: 700;
     font-size: 22px;
     color: #ffffff;
-    margin-bottom: 60px;
-    position: relative;
+    margin-bottom: 28px;
 }
-#footer .footer-top .footer-column-title::after {
-    content: "";
-    position: absolute;
-    bottom: -30px;
-    left: 0;
+#footer .footer-top .footer-column-devider {
     height: 3px;
     width: 51px;
     background-color: #8bc34a;
+    margin-bottom: 30px;
 }
 #footer .footer-top .footer-column-text {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 15px;
-    line-height: 24px;
     color: #b7c3c8;
     margin-bottom: 35px;
 }
@@ -49,7 +44,7 @@
     content: "\f054";
     top: 0;
     left: 0;
-    font-size: 12px;
+    font-size: 15px;
     color: #8bc34a;
 }
 #footer .footer-top .footer-column-list a {
@@ -78,10 +73,6 @@
     font-size: 20px;
     color: #ffffff;
 }
-#footer .footer-top .footer-newsletter-form .input-group {
-    padding: 1px;
-    background-image: linear-gradient(to bottom, #000 0%, #263238 100%), linear-gradient(to bottom, #000 0%, #263238 100%);
-}
 #footer .footer-top .footer-newsletter-form .form-control.footer-newsletter {
     padding: 14px;
     font-family: 'Roboto', sans-serif;
@@ -89,7 +80,7 @@
     font-size: 14px;
     line-height: 1;
     color: #697378;
-    border: none;
+    border: 1px solid #000101;
     border-radius: 0;
     background-color: #2f3c43;
     height: auto;
@@ -100,8 +91,9 @@
     box-shadow: none;
 }
 #footer .footer-top .footer-newsletter-form .btn.footer-newsletter-button {
-    border: none;
+    border: 1px solid #000101;
     border-radius: 0;
+    border-left: none;
     background-color: #8bc34a;
     color: #ffffff;
     font-size: 20px;
