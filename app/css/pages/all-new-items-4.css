@@ -94,6 +94,9 @@
 
 /* Page content styles*/
 
+.all-items-container .card.medium-card .card-img img {
+    width: 100%;
+}
 .sort-controls {
     border: 1px solid #dcdcdc;
     background-color: #fff;
