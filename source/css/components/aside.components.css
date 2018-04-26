@@ -1,14 +1,14 @@
 /*========== ASIDE START ==========*/
 
-.aside-container .aside-content{
+.aside .aside-content{
     border: 1px solid #dedede;
     background-color: #fff;
     padding: 25px;
 }
-.aside-container .aside-content{
+.aside .aside-content{
     border: 1px solid #dedede;
 }
-.aside-container .aside-content .aside-title{
+.aside .aside-content .aside-title{
     font-size: 20px;
     font-family: "Roboto";
     font-weight: 700;
@@ -16,7 +16,7 @@
     padding-bottom: 20px;
     border-bottom: 1px solid #dde3e8;
 }
-.aside-container .aside-content + .aside-content{
+.aside .aside-content + .aside-content{
     margin-top: 30px;
 }
 
