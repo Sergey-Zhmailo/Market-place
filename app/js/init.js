@@ -10,4 +10,4 @@ $( function() {
 } );
 
 //Select init
-$('select').styler();
+$('select,input[type="file"]').styler();
