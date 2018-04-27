@@ -19,8 +19,12 @@
 #header .bottom-header {
     background-color: #263238;
 }
+#header ul.header-nav {
+    padding: 25px 0;
+}
 #header .bottom-header .header-nav li {
-    margin: 25px 40px 25px 0px;
+    display: inline-block;
+    margin-right: 40px;
 }
 #header .bottom-header .header-nav a {
     font-family: 'Roboto', sans-serif;
@@ -30,5 +34,44 @@
 }
 #header .bottom-header .header-nav a:hover {
     color: #e74c3c;
+}
+#header .navbar-toggler {
+    padding: 0 10px;
+}
+#header .navbar-toggler[aria-expanded="true"] {
+    background-color: #8bc34a;
+}
+#header .navbar-toggler.collapsed {
+    background-color: transparent;
+}
+#header .navbar-toggler span {
+    height: 32px;
+    width: 32px;
+}
+@media (max-width: 991px) {
+    #header .top-header .top-header-text span {
+        display: block;
+    }
+    #header .bottom-header .header-nav li {
+        display: block;
+        text-align: center;
+        margin-right: 0;
+    }
+    #header .bottom-header .header-nav li + li {
+        margin-top: 25px;
+    }
+    #header .headert-controls {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 575px) {
+    #header .top-header .headert-controls {
+        flex-wrap: wrap;
+    }
+    #header .top-header .top-header-text {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
 /*========== HEADER END ===========*/

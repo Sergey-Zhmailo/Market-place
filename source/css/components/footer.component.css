@@ -4,6 +4,11 @@
     padding: 115px 0 100px 0;
     border-bottom: 1px solid #424d53;
 }
+@media (max-width: 991px) {
+    #footer .footer-column {
+        margin-bottom: 30px;
+    }
+}
 #footer .footer-top .footer-column-title {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;

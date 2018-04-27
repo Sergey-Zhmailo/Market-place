@@ -21,10 +21,10 @@
 </head>
 <body>
 <!--========== HEADER START ==========-->
-<header id="header">
+<header id="header" class="navbar-expand-lg">
     <!--TOP-HEADER START-->
-    <div class="top-header">
-        <div class="container d-flex align-items-center">
+    <div class="top-header navbar-light">
+        <div class="container d-flex align-items-center flex-wrap">
             <!--LOGO START-->
             <div class="logo mr-auto">
                 <a href="#">
@@ -33,75 +33,83 @@
             </div>
             <!-- /.logo -->
             <!--LOGO END-->
-            <!--TOP-HEADER TEXT START-->
-            <div class="top-header-text">
-                <span class="text-color-red">Need help?</span>
-                <span>Talk to an expert: +61 3 8376 6284</span>
+            <div class="order-1 headert-controls d-flex align-items-center justify-content-between">
+                <!--TOP-HEADER TEXT START-->
+                <div class="top-header-text mr-auto">
+                    <span class="text-color-red">Need help?</span>
+                    <span>Talk to an expert: +61 3 8376 6284</span>
+                </div>
+                <!-- /.top-header-text -->
+                <!--TOP-HEADER TEXT END-->
+                <!--TOP-HEADER INFO DROPDOWNS START-->
+                <ul class="header-dropdown-list d-flex justify-content-center">
+                    <li class="dropdown show dropdown-basket">
+                        <a class="dropdown-toggle dropdown-open-menu" id="dropdownBasket" data-toggle="dropdown" aria-haspopup="true"
+                           aria-expanded="false">
+                            <i class="fa fa-shopping-basket drop-icon"> </i>
+                            <span class="count">15</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right"
+                             aria-labelledby="dropdownBasket">
+                            <div  class="dropdown-item d-flex">
+                                <a href="#"><img src="img/dropdown-bascket.png" alt=""/> </a>
+                                <div class="drop-content d-flex">
+                                    <h6>Grand Ballet</h6>
+                                    <span class="drop-content-title">WordPress</span>
+                                    <span class="drop-content-price">59$</span>
+                                </div>
+                                <!-- / .drop-content-->
+                            </div>
+                            <!-- / .dropdown-item  -->
+                            <div class="dropdown-item d-flex aling-item-center">
+                                <a href="#"><img src="img/dropdown-bascket.png" alt=""/> </a>
+                                <div class="drop-content d-flex">
+                                    <h6>Apple Device</h6>
+                                    <span class="drop-content-title">WordPress</span>
+                                    <span class="drop-content-price">69$</span>
+                                </div>
+                                <!-- / .drop-content-->
+                            </div>
+                            <!-- / .dropdown-item  -->
+                            <div class="dropdown-total">
+                                <div class="dropdown-total-item d-flex justify-content-between">
+                                    <span>Total</span>
+                                    <span class="drop-content-price">$128</span>
+                                </div>
+                                <div class=" d-flex justify-content-between align-items-stretch">
+                                    <button class="btn-custom btn-dropdown btn-green">Go to Cart</button>
+                                    <button class="btn-custom btn-dropdown btn-red">Go to Checkout</button>
+                                </div>
+                            </div>
+                            <!-- / .dropdown-total -->
+                        </div>
+                        <!-- / .dropdown-notification -->
+                    </li>
+                </ul>
+                <!-- /.header-dropdown-list -->
+                <!--TOP-HEADER INFO DROPDOWNS END-->
+                <!--TOP-HEADER USER ACCOUNT START-->
+                <!--TOP-HEADER USER ACCOUNT END-->
+                <!--TOP-HEADER LOGIN|REGISTER|LOGOUT BUTTONS START-->
+                <button class="btn-custom btn-header btn-green modal-button" data-toggle="modal" data-target="#loginModal">Login</button>
+                <button class="btn-custom btn-header btn-red">Register</button>
+                <!--TOP-HEADER LOGIN|REGISTER|LOGOUT BUTTONS START-->
             </div>
-            <!-- /.top-header-text -->
-            <!--TOP-HEADER TEXT END-->
-            <!--TOP-HEADER INFO DROPDOWNS START-->
-            <ul class="header-dropdown-list d-flex justify-content-center">
-                <li class="dropdown show dropdown-basket">
-                    <a class="dropdown-toggle dropdown-open-menu" id="dropdownBasket" data-toggle="dropdown" aria-haspopup="true"
-                       aria-expanded="false">
-                        <i class="fa fa-shopping-basket drop-icon"> </i>
-                        <span class="count">15</span>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right"
-                         aria-labelledby="dropdownBasket">
-                        <div  class="dropdown-item d-flex">
-                            <a href="#"><img src="img/dropdown-bascket.png" alt=""/> </a>
-                            <div class="drop-content d-flex">
-                                <h6>Grand Ballet</h6>
-                                <span class="drop-content-title">WordPress</span>
-                                <span class="drop-content-price">59$</span>
-                            </div>
-                            <!-- / .drop-content-->
-                        </div>
-                        <!-- / .dropdown-item  -->
-                        <div class="dropdown-item d-flex aling-item-center">
-                            <a href="#"><img src="img/dropdown-bascket.png" alt=""/> </a>
-                            <div class="drop-content d-flex">
-                                <h6>Apple Device</h6>
-                                <span class="drop-content-title">WordPress</span>
-                                <span class="drop-content-price">69$</span>
-                            </div>
-                            <!-- / .drop-content-->
-                        </div>
-                        <!-- / .dropdown-item  -->
-                        <div class="dropdown-total">
-                            <div class="dropdown-total-item d-flex justify-content-between">
-                                <span>Total</span>
-                                <span class="drop-content-price">$128</span>
-                            </div>
-                            <div class=" d-flex justify-content-between align-items-stretch">
-                                <button class="btn-custom btn-dropdown btn-green">Go to Cart</button>
-                                <button class="btn-custom btn-dropdown btn-red">Go to Checkout</button>
-                            </div>
-                        </div>
-                        <!-- / .dropdown-total -->
-                    </div>
-                    <!-- / .dropdown-notification -->
-                </li>
-            </ul>
-            <!-- /.header-dropdown-list -->
-            <!--TOP-HEADER INFO DROPDOWNS END-->
-            <!--TOP-HEADER USER ACCOUNT START-->
-            <!--TOP-HEADER USER ACCOUNT END-->
-            <!--TOP-HEADER LOGIN|REGISTER|LOGOUT BUTTONS START-->
-            <button class="btn-custom btn-header btn-green modal-button" data-toggle="modal" data-target="#loginModal">Login</button>
-            <button class="btn-custom btn-header btn-red">Register</button>
-            <!--TOP-HEADER LOGIN|REGISTER|LOGOUT BUTTONS START-->
+            <!-- /.order-1 -->
+            <!--NAVBAR START-->
+            <button class="navbar-toggler btn-header" type="button" data-toggle="collapse" data-target="#header-nav" aria-controls="header-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--NAVBAR END-->
         </div>
         <!-- /.container -->
     </div>
     <!-- /.top-header -->
     <!--TOP-HEADER END-->
     <!--BOTTOM-HEADER START-->
-    <div class="bottom-header">
+    <div id="header-nav" class="bottom-header collapse navbar-collapse">
         <div class="container">
-            <ul class="header-nav d-flex align-items-center justify-content-start">
+            <ul class="header-nav">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">WordPress</a></li>
@@ -170,7 +178,7 @@
         <div class="newest-release-prodcuts-cards">
             <div class="row">
                 <!--Product card START-->
-                <div class="col col-3">
+                <div class="col col-md-6 col-12 col-lg-4 col-xl-3">
                     <div class="card large-card">
                         <div class="card-img">
                             <a href="#">
@@ -212,7 +220,7 @@
                 <!-- /.col-3 -->
                 <!--Product card END-->
                 <!--Product card START-->
-                <div class="col col-3">
+                <div class="col col-md-6 col-12 col-lg-4 col-xl-3">
                     <div class="card large-card">
                         <div class="card-img">
                             <a href="#">
@@ -254,7 +262,7 @@
                 <!-- /.col-3 -->
                 <!--Product card END-->
                 <!--Product card START-->
-                <div class="col col-3">
+                <div class="col col-md-6 col-12 col-lg-4 col-xl-3">
                     <div class="card large-card">
                         <div class="card-img">
                             <a href="#">
@@ -296,7 +304,7 @@
                 <!-- /.col-3 -->
                 <!--Product card END-->
                 <!--Product card START-->
-                <div class="col col-3">
+                <div class="col col-md-6 col-12 col-lg-4 col-xl-3">
                     <div class="card large-card">
                         <div class="card-img">
                             <a href="#">
@@ -338,7 +346,7 @@
                 <!-- /.col-3 -->
                 <!--Product card END-->
                 <!--Product card START-->
-                <div class="col col-3">
+                <div class="col col-md-6 col-12 col-lg-4 col-xl-3">
                     <div class="card large-card">
                         <div class="card-img">
                             <a href="#">
@@ -380,7 +388,7 @@
                 <!-- /.col-3 -->
                 <!--Product card END-->
                 <!--Product card START-->
-                <div class="col col-3">
+                <div class="col col-md-6 col-12 col-lg-4 col-xl-3">
                     <div class="card large-card">
                         <div class="card-img">
                             <a href="#">
@@ -422,7 +430,7 @@
                 <!-- /.col-3 -->
                 <!--Product card END-->
                 <!--Product card START-->
-                <div class="col col-3">
+                <div class="col col-md-6 col-12 col-lg-4 col-xl-3">
                     <div class="card large-card">
                         <div class="card-img">
                             <a href="#">
@@ -464,7 +472,7 @@
                 <!-- /.col-3 -->
                 <!--Product card END-->
                 <!--Product card START-->
-                <div class="col col-3">
+                <div class="col col-md-6 col-12 col-lg-4 col-xl-3">
                     <div class="card large-card">
                         <div class="card-img">
                             <a href="#">
@@ -729,7 +737,7 @@
             <h2>Why You Choose Foxtar Market Place?</h2>
             <div class="row">
                 <!--Easily Buy & Sell START-->
-                <div class="advantage-item col-4">
+                <div class="advantage-item col-12 col-lg-4">
                     <div class="advantage-item-img">
                         <img src="img/advantage-item-img.png" alt="advantage-item-img">
                     </div>
@@ -746,7 +754,7 @@
                 <!-- /.advantage-item -->
                 <!--Easily Buy & Sell END-->
                 <!--Quality Products START-->
-                <div class="advantage-item col-4">
+                <div class="advantage-item col-12 col-lg-4">
                     <div class="advantage-item-img">
                         <img src="img/advantage-item-img.png" alt="advantage-item-img">
                     </div>
@@ -763,7 +771,7 @@
                 <!-- /.advantage-item -->
                 <!--Quality Products END-->
                 <!--100% Secure Payment START-->
-                <div class="advantage-item col-4">
+                <div class="advantage-item col-12 col-lg-4">
                     <div class="advantage-item-img">
                         <img src="img/advantage-item-img.png" alt="advantage-item-img">
                     </div>
@@ -816,8 +824,8 @@
         <h2>Free Monthly Tutorials To Help You With Your Project</h2>
         <div class="container">
             <div class="row">
-                <div class="col-4">
-                    <div class="tutorials-item">
+                <div class="col-12 col-lg-4">
+                    <div class="tutorials-item d-flex justify-content-center">
                         <a href="#">
                             <img src="img/home-free-monthly-tutorials.jpg" alt="free-monthly-tutorials">
                             <div class="tutorials-item-title">
@@ -829,8 +837,8 @@
                     <!-- /.tutorials-item -->
                 </div>
                 <!-- /.col-4 -->
-                <div class="col-4">
-                    <div class="tutorials-item">
+                <div class="col-12 col-lg-4">
+                    <div class="tutorials-item d-flex justify-content-center">
                         <a href="#">
                             <img src="img/home-free-monthly-tutorials.jpg" alt="free-monthly-tutorials">
                             <div class="tutorials-item-title">
@@ -842,8 +850,8 @@
                     <!-- /.tutorials-item -->
                 </div>
                 <!-- /.col-4 -->
-                <div class="col-4">
-                    <div class="tutorials-item">
+                <div class="col-12 col-lg-4">
+                    <div class="tutorials-item d-flex justify-content-center">
                         <a href="#">
                             <img src="img/home-free-monthly-tutorials.jpg" alt="free-monthly-tutorials">
                             <div class="tutorials-item-title">
@@ -870,7 +878,7 @@
         <div class="container d-flex">
             <div class="row">
                 <!--About Company-->
-                <div class="footer-column col-3">
+                <div class="footer-column col-12 col-sm-6 col-lg-3">
                     <div class="footer-column-title">
                         <span>About Company</span>
                     </div>
@@ -897,7 +905,7 @@ Victoria 8007 Australia</span>
                 <!--/ footer-column-->
                 <!--/ About Company-->
                 <!--Join Our Community-->
-                <div class="footer-column col-3">
+                <div class="footer-column col-12 col-sm-6 col-lg-3">
                     <div class="footer-column-title">
                         <span>Join Our Community</span>
                     </div>
@@ -916,7 +924,7 @@ Victoria 8007 Australia</span>
                 <!--/ footer-column-->
                 <!--/ Join Our Community-->
                 <!--Need Help?-->
-                <div class="footer-column col-3">
+                <div class="footer-column col-12 col-sm-6 col-lg-3">
                     <div class="footer-column-title">
                         <span>Need Help?</span>
                     </div>
@@ -935,7 +943,7 @@ Victoria 8007 Australia</span>
                 <!--/ footer-column-->
                 <!--/ Need Help?-->
                 <!--Follow Us On-->
-                <div class="footer-column col-3">
+                <div class="footer-column col-12 col-sm-6 col-lg-3">
                     <div class="footer-column-title">
                         <span>Follow Us On</span>
                     </div>
