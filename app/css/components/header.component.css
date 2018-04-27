@@ -74,5 +74,9 @@
         width: 100%;
         margin-bottom: 20px;
     }
+    #header .top-header button.btn-custom.btn-header {
+        width: 100%;
+        margin: 5px 0 !important;
+    }
 }
 /*========== HEADER END ===========*/
