@@ -9,7 +9,7 @@
     margin-bottom: 40px;
 }
 
-.marked-list {
+.page-content .marked-list {
     font-size: 15px;
     color: #263238;
 
@@ -38,6 +38,9 @@
     top: 0;
     color: #90a4ae;
 }
+/*.marked-list.aside-marked-list li {*/
+    /*border-bottom: none;*/
+/*}*/
 
 .marked-list li .marked-list-price::before {
     content: "(";
@@ -91,6 +94,9 @@
 
 /* Page content styles*/
 
+.all-items-container .card.medium-card .card-img img {
+    width: 100%;
+}
 .sort-controls {
     border: 1px solid #dcdcdc;
     background-color: #fff;

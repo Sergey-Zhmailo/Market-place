@@ -1,15 +1,18 @@
+$( function() {
+    // SLICK-CAROUSEL INIT
+    $('.trending-products-carousel').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: false
+    });
+});
+
 // Select init
 $('select').styler();
 
-// Slick carousel init
-$('.trending-carousel').slick({
 
-    arrows:false,
-    dots: true,
-    infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 1
-});
 
 // Switch product items view
 $('.grid-thumbs').on('click', function(){
