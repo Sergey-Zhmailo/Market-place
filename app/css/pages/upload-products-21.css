@@ -1,0 +1,27 @@
+/*---upload-products-21---*/
+.content-wrapper-bordered.upload-price{
+	border-top: none;
+}
+.content-wrapper-bordered.upload-product{
+	border-bottom: none;
+}
+.upload-product sup,
+.upload-price sup{
+	font-size: 20px;
+	color: #8bc34a;
+	margin: 6px 6px
+}
+.upload-product .form-group .col-form-label{
+	font-size: 14px;
+}
+.upload-price button{
+	margin: 40px 0 0 -10px;
+}
+/*---/ upload-products-21---*/
+/*---@media upload-products-21---*/
+/*@media(max-width: 767px){
+.upload-price .btn-custom{
+	width: 100%; 
+}
+}*/
+/*---/ @media upload-products-21---*/

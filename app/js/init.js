@@ -33,11 +33,6 @@ $( function() {
     });
 });
 
-// Select init
-$('select').styler();
-
-
-
 // Switch product items view
 $('.grid-thumbs').on('click', function(){
     // Find cards and remove class row-card
@@ -54,4 +49,7 @@ $('.grid-list').on('click', function(){
     $('.sort-controls .grid-thumbs').removeClass('active');
     $('.sort-controls .grid-list').addClass('active');
 });
+
+//Select init
+$('select,input[type="file"]').styler();
 

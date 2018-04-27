@@ -274,107 +274,124 @@ aria-labelledby="dropdownAccount">
         <nav aria-label="breadcrumb">
             <ul class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Settings</li>
+                <li class="breadcrumb-item active" aria-current="page">Upload Product</li>
             </ul>
         </nav>
 
         <section class="form-example">
             <div class="container">
 
-                <div class="overlay"></div>
-
                 <div class="row">
-                    <div class="col-12 col-md-6 col-lg-3 mobile-aside left">
-                        <aside class="aside-info aside-left">
-                            <div class="aside-content">
-                                <ul>
-                                    <li class="active"><a href="#"><i class="fa fa-angle-right"></i>Personal Information</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i>Profile</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i>Badges</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i>E-mail Settings</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i>Social Network</a></li>
-                                </ul>
-                            </div>
-                        </aside>
-                    </div>
 
+                    <div class="col-12 col-lg-12">
 
-
-                    <div class="col-12 col-lg-9">
-                        <button class="mobile-aside-toggle d-lg-none">
-                            <i class="fa fa-bars"></i>
-                        </button>
-                        <div class="content-wrapper-bordered">
+                        <div class="content-wrapper-bordered upload-product">
 
                             <div class="content-wrapper-title">
-                                <h6>Personal information</h6>
+                                <h6>Upload Your item</h6>
                             </div>
                             <!-- /content-wrapper-title -->
                             <div class="content-wrapper-body">
                                 <form>
                                     <div class="form-group row">
-                                        <label for="FirstName" class=" col-sm-12 col-md-4 col-form-label">First Name</label>
-                                        <div class=" col-sm-12 col-md-8">
-                                            <input type="text" class="form-control" id="FirstName" >
+                                        <label for="selectCategories" class="col-xl-2 col-md-3 col-sm-12 col-form-label">Select Categories <sup>*</sup></label>
+                                        <div class="col-xl-10 col-md-9 col-sm-12">
+                                            <select  id="selectCategories" name="selectCategories" data-placeholder="Select">
+                                                <option></option>
+                                                <option value="123">123</option>
+                                                <option value="456">456</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label for="LastName" class="col-sm-12 col-md-4 col-form-label">Last Name</label>
-                                        <div class="col-sm-12 col-md-8">
-                                            <input type="text" class="form-control" id="LastName">
+                                        <label for="ProductName" class="col-xl-2 col-md-3 col-sm-12 col-form-label">Product Name<sup>*</sup></label>
+                                        <div class="col-xl-10 col-md-9 col-sm-12">
+                                            <input type="text" class="form-control" id="ProductName" placeholder="Enter your product name here ...">
                                         </div>
                                     </div>
+
                                     <div class="form-group row">
-                                        <label for="CompanyName" class="col-sm-12 col-md-4 col-form-label">Company Name</label>
-                                        <div class="col-sm-12 col-md-8">
-                                            <input type="text" class="form-control" id="CompanyName" value="">
+                                        <label for="user-message21" class="col-xl-2 col-md-3 col-sm-12 col-form-label">Product Description<sup>*</sup></label>
+                                        <div class="col-xl-10 col-md-9 col-sm-12">
+                                            <textarea name="user-message21" id="user-message21" placeholder="<h1> Type your text  here </h1/>" class="form-control"></textarea>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label for="selectCountry" class="col-sm-12 col-md-4 col-form-label">Country</label>
-                                        <div class="col-sm-12 col-md-8">
-                                            <select  id="selectCountry" name="selectCountry" data-placeholder="Select Your Country">
-                                               <option></option>
-                                               <option value="USA">USA</option>
-                                               <option value="Canada">Canada</option>
-                                           </select>
+
+                                        <div class="form-group row">
+                                            <label for="MainFile" class="col-xl-2 col-md-3 col-sm-12 col-form-label">Upload Main File<sup>*</sup></label>
+                                            <div class="col-xl-10 col-md-9 col-sm-12">
+                                               <input type="file" name="file" id="MainFile" class="form-control">
+                                           </div>
+                                       </div>   
+                                       <div class="form-group row">
+                                        <label for="Screenshotsfile" class="col-xl-2 col-md-3 col-sm-12 col-form-label">Upload Screenshots<sup>*</sup></label>
+                                        <div class="col-xl-10 col-md-9 col-sm-12">
+                                           <input type="file" name="file" id="Screenshotsfile" class="form-control">
                                        </div>
-                                   </div>
+                                   </div>   
                                    <div class="form-group row">
-                                    <label for="AddressLine1" class="col-sm-12 col-md-4 col-form-label">Address Line 1</label>
-                                    <div class="col-sm-12 col-md-8">
-                                        <input type="text" class="form-control" id="AddressLine1">
+                                    <label for="selectType" class="col-xl-2 col-md-3 col-sm-12 col-form-label">Select File Type<sup>*</sup></label>
+                                    <div class="col-xl-10 col-md-9 col-sm-12">
+                                        <select  id="selectType" name="selectType" data-placeholder="Select Your Country">
+                                            <option></option>
+                                            <option value="789">789</option>
+                                            <option value="025">025</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="FileDeminsions" class="col-xl-2 col-md-3 col-sm-12 col-form-label">File Deminsions<sup>*</sup></label>
+                                    <div class="col-xl-10 col-md-9 col-sm-12">
+                                        <input type="text" class="form-control" id="FileDeminsions" placeholder="Enter the item dimentionss here ...">
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="AddressLine2" class="col-sm-12 col-md-4 col-form-label">Address Line 2</label>
-                                    <div class="col-sm-12 col-md-8">
-                                        <input type="text" class="form-control" id="AddressLine2">
+                                    <label for="ItemTags" class="col-xl-2 col-md-3 col-sm-12 col-form-label">Item Tags<sup>*</sup></label>
+                                    <div class="col-xl-10 col-md-9 col-sm-12">
+                                        <input type="text" class="form-control" id="ItemTags" value="" placeholder="Enter Tag Here">
+                                    </div>
+                                </div>
+
+                               
+                            </form>
+                        </div>
+                        <!-- / content-wrapper-body-->
+                    </div>
+                    <!-- /content-wrapper-bordered -->
+                </div>
+                <!-- /col -->
+            </div>
+
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="content-wrapper-bordered upload-price">
+                        <div class="content-wrapper-title">
+                            <h6>Set Your Price (US$)</h6>
+                        </div>
+                        <!-- /content-wrapper-title -->
+                        <div class="content-wrapper-body">
+                            <form>
+                                <div class="form-group row">
+                                    <label for="RegularLicense" class=" col-xl-2 col-md-3 col-sm-12 col-form-label">Regular License<sup>*</sup></label>
+                                    <div class=" col-xl-10 col-md-9 col-sm-12">
+                                        <input type="text" class="form-control" id="RegularLicense" placeholder="$00.00">
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="City" class="col-sm-12 col-md-4 col-form-label">City</label>
-                                    <div class="col-sm-12 col-md-8">
-                                        <input type="text" class="form-control" id="City">
+                                    <label for="ExtendedLicense" class="col-xl-2 col-md-3 col-sm-12 col-form-label">Extended License<sup>*</sup></label>
+                                    <div class="col-xl-10 col-md-9 col-sm-12">
+                                        <input type="text" class="form-control" id="ExtendedLicense" placeholder="$00.00">
                                     </div>
+                                </div>                  
+                                
+                                <div class="col-12 col-xl-10 col-sm-12
+                                offset-sm-2 offset-md-3">
+                                    <button type="submit" class="btn-custom btn-submit btn-green">Submit</button>
                                 </div>
-                                <div class="form-group row">
-                                    <label for="State" class="col-sm-12 col-md-4 col-form-label">State / Province / Region</label>
-                                    <div class="col-sm-12 col-md-8">
-                                        <input type="text" class="form-control" id="State">
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="Zip" class="col-sm-12 col-md-4 col-form-label">Zip /Postal Code</label>
-                                    <div class="col-sm-12 col-md-8">
-                                        <input type="text" class="form-control" id="Zip">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-sm-4 offset-sm-4">
-                                        <button type="submit" class="btn-custom btn-submit btn-green">Update</button>
-                                    </div>
-                                </div>
+
+                                
                             </form>
                         </div>
                         <!-- / content-wrapper-body-->
@@ -384,6 +401,7 @@ aria-labelledby="dropdownAccount">
                 <!-- /col -->
             </div>
         </div>
+        <!-- / container -->
     </section>
 </div>
 </div>
@@ -525,7 +543,7 @@ aria-labelledby="dropdownAccount">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.min.js"></script>
-<script src="js/aside.js"></script>
+
 <!-- Init plugins -->
 <script src="js/init.js"></script>
 </body>

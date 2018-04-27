@@ -1,3 +1,4 @@
+/*---aside-info-16---*/
 .aside-info{
 	background-color: #fff;
 	border: 1px solid #dedede;
@@ -27,3 +28,58 @@
 	text-decoration: none;
 	color: inherit;
 }
+/*--- / aside-info-16---*/
+/*---@ media aside-info-16---*/
+@media(max-width: 991px){
+	.mobile-aside{
+		position: fixed;
+		top: 15px;
+		left: 0;
+		z-index: 999;
+		transition: all .2s ease-in;
+	}
+	.mobile-aside.left{
+		transform: translateX(-110%);
+	}
+	.overlay{
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		opacity: 0;
+		background-color: rgba(0, 0, 0, .4);
+		z-index: -1;
+		transition: all .2s ease-in;
+	}
+
+	#main.show-aside .mobile-aside.left{
+		transform: translateX(0);
+	}
+	#main.show-aside .overlay{
+		z-index: 998;
+		opacity: 1;
+	}
+	.form-example .mobile-aside-toggle{
+		position: absolute;
+		right: 15px;
+		top: -45px;
+		padding: 10px;
+	}
+}
+@media(max-width: 767px){
+	.container .form-example{
+		padding-bottom: 80px;
+	}
+}
+@media(max-width: 576px){
+	form .btn-custom{
+		width: 100%;
+	}
+}
+@media(max-width: 479px){
+	.content-wrapper-bordered .content-wrapper-body{
+		padding: 30px 10px 50px;
+	}
+}
+/*--- / @ media aside-info-16---*/
