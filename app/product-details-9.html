@@ -273,9 +273,9 @@
     <!--========== HEADER END ==========-->
 
     <!--========== MAIN START ==========-->
-    <div class="main">
+    <div class="main" id="main">
         <!--========== SEARCH-SECTION START ==========-->
-        <div id="search-section-small" class="search-section small">
+        <div id="search-section-small" class="search-section small search-section-product-details">
             <div class="col">
                 <span>Premium WordPress Themes, Web Templates and Many More ...</span>
             </div>
@@ -292,11 +292,17 @@
         <div class="breadcrumb-section">
             <div class="container">
                 <nav aria-label="breadcrumb">
-                    <ul class="breadcrumb">
+                    <ul class="breadcrumb breadcrumb-product-details">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
                         <li class="breadcrumb-item"><a href="#">WordPress</a></li>
                         <li class="breadcrumb-item active" aria-current="page">GT Builder Construction</li>
                     </ul>
+                    <div class="mobile-aside-toggle-wrapper d-flex justify-content-end">
+                        <button class="mobile-aside-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
+                    <!--/mobile-aside-toggle-wrapper-->
                 </nav>
             </div>
             <!--/ container-->
@@ -308,8 +314,9 @@
 
         <div class="product-details">
             <div class="container">
+                <div class="overlay"></div>
                 <div class="row">
-                    <div class="col-9">
+                    <div class="col-12 col-lg-9">
                         <div class="product-details-content">
                             <div class="img-wrapper">
                                 <img src="img/big-photo-9.jpg" alt="">
@@ -397,7 +404,7 @@
                             <!--/ more-products-->
                             <div class="more-products-card-wrapper">
                                 <div class="row">
-                                    <div class="col-4">
+                                    <div class="col-6 col-md-6 col-lg-4">
                                         <div class="small-row-card d-flex">
                                             <div class="more-products-img">
                                                 <a href="">
@@ -415,7 +422,7 @@
                                         <!--/ small-row-card-->
                                     </div>
                                     <!--/ col-->
-                                    <div class="col-4">
+                                    <div class="col-6 col-md-6 col-lg-4">
                                         <div class="small-row-card d-flex">
                                             <div class="more-products-img">
                                                 <a href="">
@@ -433,7 +440,7 @@
                                         <!--/ small-row-card-->
                                     </div>
                                     <!--/ col-->
-                                    <div class="col-4">
+                                    <div class="col-6 col-md-6 col-lg-4">
                                         <div class="small-row-card d-flex">
                                             <div class="more-products-img">
                                                 <a href="">
@@ -451,10 +458,7 @@
                                         <!--/ small-row-card-->
                                     </div>
                                     <!--/ col-->
-                                </div>
-                                <!--/ row-->
-                                <div class="row">
-                                    <div class="col-4">
+                                    <div class="col-6 col-md-6 col-lg-4">
                                         <div class="small-row-card d-flex">
                                             <div class="more-products-img">
                                                 <a href="">
@@ -472,7 +476,7 @@
                                         <!--/ small-row-card-->
                                     </div>
                                     <!--/ col-->
-                                    <div class="col-4">
+                                    <div class="col-6 col-md-6 col-lg-4">
                                         <div class="small-row-card d-flex">
                                             <div class="more-products-img">
                                                 <a href="">
@@ -490,7 +494,7 @@
                                         <!--/ small-row-card-->
                                     </div>
                                     <!--/ col-->
-                                    <div class="col-4">
+                                    <div class="col-6 col-md-6 col-lg-4">
                                         <div class="small-row-card d-flex">
                                             <div class="more-products-img">
                                                 <a href="">
@@ -516,7 +520,7 @@
                         <!--/ product-details-content-->
                     </div>
                     <!--/ col-->
-                    <div class="aside-container col-3">
+                    <div class="aside-container col-12 col-md-8 col-lg-3 mobile-aside right">
                         <div class="aside-content">
                             <div class="aside-title">
                                 <span>Product Price</span>
@@ -782,23 +786,24 @@
     <!--========== FOOTER END ==========-->
 
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script src="js/range.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/range.js"></script>
+    <script src="js/aside.js"></script>
 
-<!-- Slick-nav -->
-<script src="js/jquery.slicknav.min.js"></script>
+    <!-- Slick-nav -->
+    <script src="js/jquery.slicknav.min.js"></script>
 
 
-<!-- Init plugins -->
-<script src="js/init.js"></script>
+    <!-- Init plugins -->
+    <script src="js/init.js"></script>
 
 </body>
 </html>
