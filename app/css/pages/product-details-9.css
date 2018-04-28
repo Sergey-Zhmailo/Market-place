@@ -25,7 +25,11 @@
 .product-price-wrapper .btn-aside + .btn-aside {
     margin-top: 8px;
 }
-
+@media (max-width: 1200px) {
+    .product-details .aside-content {
+        padding: 25px 10px;
+    }
+}
 .product-details .dropdown .btn-custom.dropdown-toggle {
     color: #70838d;
     border: 1px solid #d5d5d5;
@@ -240,7 +244,7 @@
 .tab-content li::before {
     content: '\f105';
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
     .tab-content li {
         width: 41%;
     }
