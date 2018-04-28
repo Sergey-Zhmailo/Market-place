@@ -1,30 +1,30 @@
 /*---aside-info-16---*/
-.aside-info{
+.left .aside-info{
 	background-color: #fff;
 	border: 1px solid #dedede;
 	margin-left: -15px;
 }
-.aside-content li{
+.left .aside-content li{
 	padding: 10px 0 10px 23px;
 	border-bottom: 1px solid #dedede;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 2.14;
 }
-.aside-content li.active{
+.left .aside-content li.active{
 	color: #37474f;
 	border-bottom: 2px solid #8bc34a;
 }
-.aside-content li i{
+.left .aside-content li i{
 	color: #686868;
 }
-.aside-content li.active i{
+.left .aside-content li.active i{
 	color: #8bc34a;
 }
-.aside-content i{
+.left .aside-content i{
 	padding-right: 23px;
 }
-.aside-content li a{
+.left .aside-content li a{
 	text-decoration: none;
 	color: inherit;
 }
