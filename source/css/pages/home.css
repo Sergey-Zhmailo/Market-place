@@ -1,11 +1,12 @@
 /*========== HOME STYLES START ==========*/
-.card {
+
+
+/*========== NEWEST RELEASE PRODCUTS START ==========*/
+.newest-release-prodcuts .card {
     max-width: 440px;
     margin-left: auto;
     margin-right: auto;
 }
-
-/*========== NEWEST RELEASE PRODCUTS START ==========*/
 .newest-release-prodcuts .tag-section {
     padding-bottom: 60px;
 }
@@ -37,6 +38,11 @@
 
 /*========== THIS WEEK TRENDING PRODUCTS START ==========*/
 /*TRENDING PRODUCTS CAROUSEL START*/
+.trending-products-carousel .card {
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .this-week-trending-products .slick-slide {
     padding: 0 15px;
 }
