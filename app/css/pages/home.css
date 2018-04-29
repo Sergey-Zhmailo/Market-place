@@ -1,6 +1,14 @@
 /*========== HOME STYLES START ==========*/
+.card {
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*========== NEWEST RELEASE PRODCUTS START ==========*/
+.newest-release-prodcuts .tag-section {
+    padding-bottom: 60px;
+}
 .newest-release-prodcuts .bottom-tags {
     margin-top: 47px;
 }
@@ -19,6 +27,11 @@
 }
 .newest-release-prodcuts .newest-release-prodcuts-cards .col {
     margin-bottom: 30px;
+}
+@media (max-width: 767px) {
+    .newest-release-prodcuts .tag-section {
+        padding-bottom: 0;
+    }
 }
 /*========== NEWEST RELEASE PRODCUTS END ==========*/
 
